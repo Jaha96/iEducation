@@ -613,7 +613,7 @@
                                 <div class="top-cart-items">
                                     <div class="top-cart-item clearfix">
                                         <div class="top-cart-item-image">
-                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
+                                            <a href="#"><img src="assets/images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
                                         </div>
                                         <div class="top-cart-item-desc">
                                             <a href="#">Blue Round-Neck Tshirt</a>
@@ -623,7 +623,7 @@
                                     </div>
                                     <div class="top-cart-item clearfix">
                                         <div class="top-cart-item-image">
-                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
+                                            <a href="#"><img src="assets/images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
                                         </div>
                                         <div class="top-cart-item-desc">
                                             <a href="#">Light Blue Denim Dress</a>
@@ -660,7 +660,7 @@
 
             <div class="swiper-container swiper-parent">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide dark" style="background-image: url('public/assets/images/slider/swiper/1.jpg');">
+                    <div class="swiper-slide dark" style="background-image: url('assets/images/slider/swiper/1.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-center">
                                 <h2 data-caption-animate="fadeInUp">Welcome to Canvas</h2>
@@ -676,14 +676,14 @@
                             </div>
                         </div>
                         <div class="video-wrap">
-                            <video poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
+                            <video poster="assets/images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
                                 <source src='assets/images/videos/explore.mp4' type='video/mp4' />
-                                <source src='images/videos/explore.webm' type='video/webm' />
+                                <source src='assets/images/videos/explore.webm' type='video/webm' />
                             </video>
                             <div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
                         </div>
                     </div>
-                    <div class="swiper-slide" style="background-image: url('public/assetsassets//images/slider/swiper/3.jpg'); background-position: center top;">
+                    <div class="swiper-slide" style="background-image: url('assets//images/slider/swiper/3.jpg'); background-position: center top;">
                         <div class="container clearfix">
                             <div class="slider-caption">
                                 <h2 data-caption-animate="fadeInUp">Great Performance</h2>
@@ -876,7 +876,7 @@
                         </div>
 
                         <div class="col-md-4 hidden-sm bottommargin center">
-                            <img src="images/services/iphone7.png" alt="iphone 2">
+                            <img src="assets/images/services/iphone7.png" alt="iphone 2">
                         </div>
 
                         <div class="col-md-4 col-sm-6 bottommargin">
@@ -913,7 +913,7 @@
 
                 <div class="row clearfix common-height">
 
-                    <div class="col-md-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
+                    <div class="col-md-6 center col-padding" style="background: url('assets/images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
                         <div>&nbsp;</div>
                     </div>
 
@@ -926,8 +926,8 @@
 
                             <div class="center bottommargin">
                                 <a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
-                                    <img src="images/services/video.jpg" alt="Video">
-                                    <span class="i-overlay nobg"><img src="images/icons/video-play.png" alt="Play"></span>
+                                    <img src="assets/images/services/video.jpg" alt="Video">
+                                    <span class="i-overlay nobg"><img src="assets/images/icons/video-play.png" alt="Play"></span>
                                 </a>
                             </div>
                             <p class="lead nobottommargin">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
@@ -1085,10 +1085,10 @@
                     <article class="portfolio-item pf-media pf-icons">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="assets/images/portfolio/4/1.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
-                                <a href="images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                <a href="assets/images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
                                 <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
                             </div>
                         </div>
@@ -1101,10 +1101,10 @@
                     <article class="portfolio-item pf-illustrations">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/2.jpg" alt="Locked Steel Gate">
+                                <img src="assets/images/portfolio/4/2.jpg" alt="Locked Steel Gate">
                             </a>
                             <div class="portfolio-overlay">
-                                <a href="images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                <a href="assets/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
                                 <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
                             </div>
                         </div>
@@ -1117,7 +1117,7 @@
                     <article class="portfolio-item pf-graphics pf-uielements">
                         <div class="portfolio-image">
                             <a href="#">
-                                <img src="images/portfolio/4/3.jpg" alt="Mac Sunglasses">
+                                <img src="assets/images/portfolio/4/3.jpg" alt="Mac Sunglasses">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="http://vimeo.com/89396394" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
@@ -1133,11 +1133,11 @@
                     <article class="portfolio-item pf-icons pf-illustrations">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/4.jpg" alt="Open Imagination">
+                                <img src="assets/images/portfolio/4/4.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay" data-lightbox="gallery">
-                                <a href="images/portfolio/full/4.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                <a href="images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                                <a href="assets/images/portfolio/full/4.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="assets/images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
                                 <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
                             </div>
                         </div>
@@ -1150,10 +1150,10 @@
                     <article class="portfolio-item pf-uielements pf-media">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/5.jpg" alt="Console Activity">
+                                <img src="assets/images/portfolio/4/5.jpg" alt="Console Activity">
                             </a>
                             <div class="portfolio-overlay">
-                                <a href="images/portfolio/full/5.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                <a href="assets/images/portfolio/full/5.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
                                 <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
                             </div>
                         </div>
@@ -1166,13 +1166,13 @@
                     <article class="portfolio-item pf-graphics pf-illustrations">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/6.jpg" alt="Open Imagination">
+                                <img src="assets/images/portfolio/4/6.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay" data-lightbox="gallery">
-                                <a href="images/portfolio/full/6.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                <a href="images/portfolio/full/6-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="images/portfolio/full/6-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="images/portfolio/full/6-3.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                                <a href="assets/images/portfolio/full/6.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="assets/images/portfolio/full/6-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                                <a href="assets/images/portfolio/full/6-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
+                                <a href="assets/images/portfolio/full/6-3.jpg" class="hidden" data-lightbox="gallery-item"></a>
                                 <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
                             </div>
                         </div>
@@ -1185,7 +1185,7 @@
                     <article class="portfolio-item pf-uielements pf-icons">
                         <div class="portfolio-image">
                             <a href="portfolio-single-video.html">
-                                <img src="images/portfolio/4/7.jpg" alt="Backpack Contents">
+                                <img src="assets/images/portfolio/4/7.jpg" alt="Backpack Contents">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="http://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
@@ -1201,10 +1201,10 @@
                     <article class="portfolio-item pf-graphics">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
+                                <img src="assets/images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
                             </a>
                             <div class="portfolio-overlay">
-                                <a href="images/portfolio/full/8.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
+                                <a href="assets/images/portfolio/full/8.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
                                 <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
                             </div>
                         </div>
@@ -1256,7 +1256,7 @@
                 <div class="container clearfix">
 
                     <div class="col_one_third bottommargin-sm center">
-                        <img data-animate="fadeInLeft" src="images/services/iphone6.png" alt="Iphone">
+                        <img data-animate="fadeInLeft" src="assets/images/services/iphone6.png" alt="Iphone">
                     </div>
 
                     <div class="col_two_third bottommargin-sm col_last">
@@ -1275,7 +1275,7 @@
 
                 </div>
 
-                <div class="section parallax dark nobottommargin" style="background-image: url('images/services/home-testi-bg.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
+                <div class="section parallax dark nobottommargin" style="background-image: url('assets/images/services/home-testi-bg.jpg'); padding: 100px 0;" data-stellar-background-ratio="0.4">
 
                     <div class="heading-block center">
                         <h3>What Clients Say?</h3>
@@ -1286,7 +1286,7 @@
                             <div class="slider-wrap">
                                 <div class="slide">
                                     <div class="testi-image">
-                                        <a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
+                                        <a href="#"><img src="assets/images/testimonials/3.jpg" alt="Customer Testimonails"></a>
                                     </div>
                                     <div class="testi-content">
                                         <p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
@@ -1298,7 +1298,7 @@
                                 </div>
                                 <div class="slide">
                                     <div class="testi-image">
-                                        <a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
+                                        <a href="#"><img src="assets/images/testimonials/2.jpg" alt="Customer Testimonails"></a>
                                     </div>
                                     <div class="testi-content">
                                         <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
@@ -1310,7 +1310,7 @@
                                 </div>
                                 <div class="slide">
                                     <div class="testi-image">
-                                        <a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
+                                        <a href="#"><img src="assets/images/testimonials/1.jpg" alt="Customer Testimonails"></a>
                                     </div>
                                     <div class="testi-content">
                                         <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
@@ -1340,7 +1340,7 @@
                         <div class="col-md-3 col-sm-6 bottommargin">
                             <div class="ipost clearfix">
                                 <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="images/magazine/thumb/1.jpg" alt="Image"></a>
+                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/1.jpg" alt="Image"></a>
                                 </div>
                                 <div class="entry-title">
                                     <h3><a href="blog-single.html">Bloomberg smart cities; change-makers economic security</a></h3>
@@ -1358,7 +1358,7 @@
                         <div class="col-md-3 col-sm-6 bottommargin">
                             <div class="ipost clearfix">
                                 <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="images/magazine/thumb/2.jpg" alt="Image"></a>
+                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/2.jpg" alt="Image"></a>
                                 </div>
                                 <div class="entry-title">
                                     <h3><a href="blog-single.html">Medicine new approaches communities, outcomes partnership</a></h3>
@@ -1376,7 +1376,7 @@
                         <div class="col-md-3 col-sm-6 bottommargin">
                             <div class="ipost clearfix">
                                 <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="images/magazine/thumb/3.jpg" alt="Image"></a>
+                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/3.jpg" alt="Image"></a>
                                 </div>
                                 <div class="entry-title">
                                     <h3><a href="blog-single.html">Significant altruism planned giving insurmountable challenges liberal</a></h3>
@@ -1394,7 +1394,7 @@
                         <div class="col-md-3 col-sm-6 bottommargin">
                             <div class="ipost clearfix">
                                 <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="images/magazine/thumb/4.jpg" alt="Image"></a>
+                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/4.jpg" alt="Image"></a>
                                 </div>
                                 <div class="entry-title">
                                     <h3><a href="blog-single.html">Compassion conflict resolution, progressive; tackle</a></h3>
@@ -1425,7 +1425,7 @@
 
                                 <div class="team">
                                     <div class="team-image">
-                                        <img src="images/team/3.jpg" alt="John Doe">
+                                        <img src="assets/images/team/3.jpg" alt="John Doe">
                                     </div>
                                     <div class="team-desc team-desc-bg">
                                         <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
@@ -1450,7 +1450,7 @@
 
                                 <div class="team">
                                     <div class="team-image">
-                                        <img src="images/team/2.jpg" alt="Josh Clark">
+                                        <img src="assets/images/team/2.jpg" alt="Josh Clark">
                                     </div>
                                     <div class="team-desc team-desc-bg">
                                         <div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
@@ -1475,7 +1475,7 @@
 
                                 <div class="team">
                                     <div class="team-image">
-                                        <img src="images/team/8.jpg" alt="Mary Jane">
+                                        <img src="assets/images/team/8.jpg" alt="Mary Jane">
                                     </div>
                                     <div class="team-desc team-desc-bg">
                                         <div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
@@ -1500,7 +1500,7 @@
 
                                 <div class="team">
                                     <div class="team-image">
-                                        <img src="images/team/4.jpg" alt="Nix Maxwell">
+                                        <img src="assets/images/team/4.jpg" alt="Nix Maxwell">
                                     </div>
                                     <div class="team-desc team-desc-bg">
                                         <div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
@@ -1530,16 +1530,16 @@
 
                     <div id="oc-clients" class="owl-carousel image-carousel">
 
-                        <div class="oc-item"><a href="#"><img src="images/clients/1.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/2.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/3.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/4.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/5.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/6.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/7.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/8.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/9.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="images/clients/10.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/1.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/2.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/3.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/4.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/5.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/6.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/7.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/8.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/9.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="#"><img src="assets/images/clients/10.png" alt="Clients"></a></div>
 
                     </div>
 
@@ -1591,11 +1591,11 @@
 
                             <div class="widget clearfix">
 
-                                <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+                                <img src="assets/images/footer-widget-logo.png" alt="" class="footer-logo">
 
                                 <p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
 
-                                <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                                <div style="background: url('assets/images/world-map.png') no-repeat center center; background-size: 100%;">
                                     <address>
                                         <strong>Headquarters:</strong><br>
                                         795 Folsom Ave, Suite 600<br>
