@@ -1,182 +1,20 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<head>
-
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Volunteer" />
-
-    <!-- Stylesheets
-    ============================================= -->
-	
-    <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="assets/style.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css" />
-
-    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-   
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
-    <script type="text/javascript" src="assets/js/plugins.js"></script>
-
-    <!-- Document Title
-    ============================================= -->
-    <title>Canvas |</title>
-
-</head>
-
-<body class="stretched">
+@extends('masters')
 
     <!-- Document Wrapper
+
     ============================================= -->
+  @section('page')  
     <div id="wrapper" class="clearfix">
 
         <!-- Header
         ============================================= -->
-        <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
-
-            <div id="header-wrap">
-
-                <div class="container clearfix">
-
-                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-                    <!-- Logo
-                    ============================================= -->
-                    <div id="logo">
-                        <a href="index.html" class="standard-logo" data-dark-logo="assets/images/logo-dark.png"><img src="assets/images/logo.png" alt="Canvas Logo"></a>
-                        <a href="index.html" class="retina-logo" data-dark-logo="assets/images/logo-dark@2x.png"><img src="assets/images/logo@2x.png" alt="Canvas Logo"></a>
-                    </div><!-- #logo end -->
-
-                    <!-- Primary Navigation
-                    ============================================= -->
-                    <nav id="primary-menu" class="dark">
-
-                        <ul>
-                            <li class="current"><a href="index.html"><div>Home</div></a>
-                                
-                            </li>
-                            <li class="current"><a href="index.html"><div>► First time? Start Here</div></a>
-                                
-                            </li>
-                            
-                            <li><a href="#"><div>Education</div></a>
-                                <ul>
-                                    <li><a href="#"><div><i class="icon-stack"></i>Sliders</div></a>
-                                        
-                                    </li>
-                                    <li><a href="#"><div><i class="icon-gift"></i>Widgets</div></a>
-                                        
-                                    </li>
-                                    <li><a href="#"><div><i class="icon-umbrella"></i>Headers</div></a>
-                                       
-                                    </li>
-                                   
-                                </ul>
-                            </li>
-                        
-                            <li><a href="shop.html"><div>More</div></a>
-                                <ul>
-                                    <li><a href="shop.html"><div>4 Columns</div></a></li>
-                                    <li><a href="shop-3.html"><div>3 Columns</div></a>
-                                        <ul>
-                                            <li><a href="shop-3.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-3-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-3-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop-2.html"><div>2 Columns</div></a>
-                                        <ul>
-                                            <li><a href="shop-2-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-2-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-2-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop-1.html"><div>1 Columns</div></a>
-                                        <ul>
-                                            <li><a href="shop-1.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-1-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-1-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-1-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop-category-parallax.html"><div>Categories - Parallax</div></a></li>
-                                    <li><a href="shop-single.html"><div>Single Product</div></a>
-                                        <ul>
-                                            <li><a href="shop-single.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-single-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-single-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="cart.html"><div>Cart</div></a></li>
-                                    <li><a href="checkout.html"><div>Checkout</div></a></li>
-                                </ul>
-                            </li>
-                            
-                        </ul>
-
-                        <!-- Top Cart
-                        ============================================= -->
-                        <div id="top-cart">
-                            <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
-                            <div class="top-cart-content">
-                                <div class="top-cart-title">
-                                    <h4>Shopping Cart</h4>
-                                </div>
-                                <div class="top-cart-items">
-                                    <div class="top-cart-item clearfix">
-                                        <div class="top-cart-item-image">
-                                            <a href="#"><img src="assets/images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-                                        </div>
-                                        <div class="top-cart-item-desc">
-                                            <a href="#">Blue Round-Neck Tshirt</a>
-                                            <span class="top-cart-item-price">$19.99</span>
-                                            <span class="top-cart-item-quantity">x 2</span>
-                                        </div>
-                                    </div>
-                                    <div class="top-cart-item clearfix">
-                                        <div class="top-cart-item-image">
-                                            <a href="#"><img src="assets/images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-                                        </div>
-                                        <div class="top-cart-item-desc">
-                                            <a href="#">Light Blue Denim Dress</a>
-                                            <span class="top-cart-item-price">$24.99</span>
-                                            <span class="top-cart-item-quantity">x 3</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="top-cart-action clearfix">
-                                    <span class="fleft top-checkout-price">$114.95</span>
-                                    <button class="button button-3d button-small nomargin fright">View Cart</button>
-                                </div>
-                            </div>
-                        </div><!-- #top-cart end -->
-
-                        <!-- Top Search
-                        ============================================= -->
-                        <div id="top-search">
-                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-                            <form action="search.html" method="get">
-                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-                            </form>
-                        </div><!-- #top-search end -->
-
-                    </nav><!-- #primary-menu end -->
-
-                </div>
-
-            </div>
-
-        </header><!-- #header end -->
+        @include('header')
 
         <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
 
             <div class="swiper-container swiper-parent">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide dark" style="background-image: url('assets/images/slider/swiper/1.jpg');">
+                    <div class="swiper-slide dark" style="background-image: url('./assets/images/slider/swiper/1.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-center">
                                 <h2 data-caption-animate="fadeInUp">Welcome to Canvas</h2>
@@ -406,66 +244,6 @@
 
                 </div>
 
-                <div class="row clearfix common-height">
-
-                    <div class="col-md-6 center col-padding" style="background: url('assets/images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
-                        <div>&nbsp;</div>
-                    </div>
-
-                    <div class="col-md-6 center col-padding" style="background-color: #F5F5F5;">
-                        <div>
-                            <div class="heading-block nobottomborder">
-                                <span class="before-heading color">Easily Understandable &amp; Customizable.</span>
-                                <h3>Walkthrough Videos &amp; Demos</h3>
-                            </div>
-
-                            <div class="center bottommargin">
-                                <a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
-                                    <img src="assets/images/services/video.jpg" alt="Video">
-                                    <span class="i-overlay nobg"><img src="assets/images/icons/video-play.png" alt="Play"></span>
-                                </a>
-                            </div>
-                            <p class="lead nobottommargin">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row clearfix bottommargin-lg common-height">
-
-                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
-                        <div>
-                            <i class="i-plain i-xlarge divcenter icon-line2-directions"></i>
-                            <div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K</div>
-                            <h5>Lines of Codes</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
-                        <div>
-                            <i class="i-plain i-xlarge divcenter icon-line2-graph"></i>
-                            <div class="counter counter-lined"><span data-from="3000" data-to="21500" data-refresh-interval="100" data-speed="2500"></span></div>
-                            <h5>KBs of HTML Files</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
-                        <div>
-                            <i class="i-plain i-xlarge divcenter icon-line2-layers"></i>
-                            <div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500"></span></div>
-                            <h5>No. of Templates</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
-                        <div>
-                            <i class="i-plain i-xlarge divcenter icon-line2-clock"></i>
-                            <div class="counter counter-lined"><span data-from="60" data-to="1400" data-refresh-interval="30" data-speed="2700"></span></div>
-                            <h5>Hours of Coding</h5>
-                        </div>
-                    </div>
-
-                </div>
 
                 <div class="container clearfix">
 
@@ -567,7 +345,7 @@
 
                 </div>
 
-                <div class="section topmargin nobottommargin nobottomborder">
+                <!-- <div class="section topmargin nobottommargin nobottomborder">
                     <div class="container clearfix">
                         <div class="heading-block center nomargin">
                             <h3>Our Latest Works</h3>
@@ -709,7 +487,7 @@
                         </div>
                     </article>
 
-                </div>
+                </div> -->
 
                 <script type="text/javascript">
 
@@ -824,247 +602,47 @@
                 <div class="section notopmargin notopborder">
                     <div class="container clearfix">
                         <div class="heading-block center nomargin">
-                            <h3>Latest from the Blog</h3>
+                            <h3>DID YOU KNOW?</h3>
                         </div>
                     </div>
                 </div>
 
                 <div class="container clear-bottommargin clearfix">
-                    <div class="row">
+                   <div class="section notopborder topmargin-sm bottommargin-sm noborder nobg">
 
-                        <div class="col-md-3 col-sm-6 bottommargin">
-                            <div class="ipost clearfix">
-                                <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/1.jpg" alt="Image"></a>
-                                </div>
-                                <div class="entry-title">
-                                    <h3><a href="blog-single.html">Bloomberg smart cities; change-makers economic security</a></h3>
-                                </div>
-                                <ul class="entry-meta clearfix">
-                                    <li><i class="icon-calendar3"></i> 13th Jun 2014</li>
-                                    <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 53</a></li>
-                                </ul>
-                                <div class="entry-content">
-                                    <p>Prevention effect, advocate dialogue rural development lifting people up community civil society. Catalyst, grantees leverage.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 bottommargin">
-                            <div class="ipost clearfix">
-                                <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/2.jpg" alt="Image"></a>
-                                </div>
-                                <div class="entry-title">
-                                    <h3><a href="blog-single.html">Medicine new approaches communities, outcomes partnership</a></h3>
-                                </div>
-                                <ul class="entry-meta clearfix">
-                                    <li><i class="icon-calendar3"></i> 24th Feb 2014</li>
-                                    <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 17</a></li>
-                                </ul>
-                                <div class="entry-content">
-                                    <p>Cross-agency coordination clean water rural, promising development turmoil inclusive education transformative community.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 bottommargin">
-                            <div class="ipost clearfix">
-                                <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/3.jpg" alt="Image"></a>
-                                </div>
-                                <div class="entry-title">
-                                    <h3><a href="blog-single.html">Significant altruism planned giving insurmountable challenges liberal</a></h3>
-                                </div>
-                                <ul class="entry-meta clearfix">
-                                    <li><i class="icon-calendar3"></i> 30th Dec 2014</li>
-                                    <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
-                                </ul>
-                                <div class="entry-content">
-                                    <p>Micro-finance; vaccines peaceful contribution citizens of change generosity. Measures design thinking accelerate progress medical initiative.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 bottommargin">
-                            <div class="ipost clearfix">
-                                <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/4.jpg" alt="Image"></a>
-                                </div>
-                                <div class="entry-title">
-                                    <h3><a href="blog-single.html">Compassion conflict resolution, progressive; tackle</a></h3>
-                                </div>
-                                <ul class="entry-meta clearfix">
-                                    <li><i class="icon-calendar3"></i> 15th Jan 2014</li>
-                                    <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 54</a></li>
-                                </ul>
-                                <div class="entry-content">
-                                    <p>Community health workers best practices, effectiveness meaningful work The Elders fairness. Our ambitions local solutions globalization.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="section">
                     <div class="container clearfix">
 
-                        <div class="row topmargin-sm">
+                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
+                            <i class="i-plain i-xlarge divcenter nobottommargin icon-code"></i>
+                            <div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K+</div>
+                            <h5>Lines of Codes</h5>
+                        </div>
 
-                            <div class="heading-block center">
-                                <h3>Meet Our Team</h3>
-                            </div>
+                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
+                            <i class="i-plain i-xlarge divcenter nobottommargin icon-magic"></i>
+                            <div class="counter counter-lined"><span data-from="3000" data-to="15360" data-refresh-interval="100" data-speed="2500"></span>+</div>
+                            <h5>KBs of HTML Files</h5>
+                        </div>
 
-                            <div class="col-md-3 col-sm-6 bottommargin">
+                        <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
+                            <i class="i-plain i-xlarge divcenter nobottommargin icon-file-text"></i>
+                            <div class="counter counter-lined"><span data-from="10" data-to="386" data-refresh-interval="25" data-speed="3500"></span>*</div>
+                            <h5>No. of Templates</h5>
+                        </div>
 
-                                <div class="team">
-                                    <div class="team-image">
-                                        <img src="assets/images/team/3.jpg" alt="John Doe">
-                                    </div>
-                                    <div class="team-desc team-desc-bg">
-                                        <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                            <i class="icon-twitter"></i>
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                            <i class="icon-gplus"></i>
-                                            <i class="icon-gplus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 bottommargin">
-
-                                <div class="team">
-                                    <div class="team-image">
-                                        <img src="assets/images/team/2.jpg" alt="Josh Clark">
-                                    </div>
-                                    <div class="team-desc team-desc-bg">
-                                        <div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                            <i class="icon-twitter"></i>
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                            <i class="icon-gplus"></i>
-                                            <i class="icon-gplus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 bottommargin">
-
-                                <div class="team">
-                                    <div class="team-image">
-                                        <img src="assets/images/team/8.jpg" alt="Mary Jane">
-                                    </div>
-                                    <div class="team-desc team-desc-bg">
-                                        <div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                            <i class="icon-twitter"></i>
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                            <i class="icon-gplus"></i>
-                                            <i class="icon-gplus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 bottommargin">
-
-                                <div class="team">
-                                    <div class="team-image">
-                                        <img src="assets/images/team/4.jpg" alt="Nix Maxwell">
-                                    </div>
-                                    <div class="team-desc team-desc-bg">
-                                        <div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                            <i class="icon-twitter"></i>
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                            <i class="icon-gplus"></i>
-                                            <i class="icon-gplus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
+                        <div class="col_one_fourth nobottommargin center col_last" data-animate="bounceIn" data-delay="600">
+                            <i class="i-plain i-xlarge divcenter nobottommargin icon-time"></i>
+                            <div class="counter counter-lined"><span data-from="60" data-to="1200" data-refresh-interval="30" data-speed="2700"></span>+</div>
+                            <h5>Hours of Coding</h5>
                         </div>
 
                     </div>
-                </div>
-
-                <div class="container clearfix">
-
-                    <div id="oc-clients" class="owl-carousel image-carousel">
-
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/1.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/2.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/3.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/4.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/5.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/6.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/7.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/8.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/9.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/10.png" alt="Clients"></a></div>
-
-                    </div>
-
-                    <script type="text/javascript">
-
-                        jQuery(document).ready(function($) {
-
-                            var ocClients = $("#oc-clients");
-
-                            ocClients.owlCarousel({
-                                margin: 60,
-                                loop: true,
-                                nav: false,
-                                autoplay: true,
-                                dots: false,
-                                autoplayHoverPause: true,
-                                responsive:{
-                                    0:{ items:2 },
-                                    480:{ items:3 },
-                                    768:{ items:4 },
-                                    992:{ items:5 },
-                                    1200:{ items:6 }
-                                }
-                            });
-
-                        });
-
-                    </script>
 
                 </div>
+                </div>
+
+            
+            
 
             </div>
 
@@ -1072,247 +650,7 @@
 
         <!-- Footer
         ============================================= -->
-        <footer id="footer" class="dark">
-
-            <div class="container">
-
-                <!-- Footer Widgets
-                ============================================= -->
-                <div class="footer-widgets-wrap clearfix">
-
-                    <div class="col_two_third">
-
-                        <div class="col_one_third">
-
-                            <div class="widget clearfix">
-
-                                <img src="assets/images/footer-widget-logo.png" alt="" class="footer-logo">
-
-                                <p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
-
-                                <div style="background: url('assets/images/world-map.png') no-repeat center center; background-size: 100%;">
-                                    <address>
-                                        <strong>Headquarters:</strong><br>
-                                        795 Folsom Ave, Suite 600<br>
-                                        San Francisco, CA 94107<br>
-                                    </address>
-                                    <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-                                    <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-                                    <abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="col_one_third">
-
-                            <div class="widget widget_links clearfix">
-
-                                <h4>Blogroll</h4>
-
-                                <ul>
-                                    <li><a href="http://codex.wordpress.org/">Documentation</a></li>
-                                    <li><a href="http://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-                                    <li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
-                                    <li><a href="http://wordpress.org/support/">Support Forums</a></li>
-                                    <li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
-                                    <li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
-                                    <li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
-                                </ul>
-
-                            </div>
-
-                        </div>
-
-                        <div class="col_one_third col_last">
-
-                            <div class="widget clearfix">
-                                <h4>Recent Posts</h4>
-
-                                <div id="post-list-footer">
-                                    <div class="spost clearfix">
-                                        <div class="entry-c">
-                                            <div class="entry-title">
-                                                <h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
-                                            </div>
-                                            <ul class="entry-meta">
-                                                <li>10th July 2014</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="spost clearfix">
-                                        <div class="entry-c">
-                                            <div class="entry-title">
-                                                <h4><a href="#">Elit Assumenda vel amet dolorum quasi</a></h4>
-                                            </div>
-                                            <ul class="entry-meta">
-                                                <li>10th July 2014</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="spost clearfix">
-                                        <div class="entry-c">
-                                            <div class="entry-title">
-                                                <h4><a href="#">Debitis nihil placeat, illum est nisi</a></h4>
-                                            </div>
-                                            <ul class="entry-meta">
-                                                <li>10th July 2014</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col_one_third col_last">
-
-                        <div class="widget clearfix" style="margin-bottom: -20px;">
-
-                            <div class="row">
-
-                                <div class="col-md-6 bottommargin-sm">
-                                    <div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-                                    <h5 class="nobottommargin">Total Downloads</h5>
-                                </div>
-
-                                <div class="col-md-6 bottommargin-sm">
-                                    <div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-                                    <h5 class="nobottommargin">Clients</h5>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="widget subscribe-widget clearfix">
-                            <h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-                            <div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg=""></div>
-                            <form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
-                                <div class="input-group divcenter">
-                                    <span class="input-group-addon"><i class="icon-email2"></i></span>
-                                    <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-success" type="submit">Subscribe</button>
-                                    </span>
-                                </div>
-                            </form>
-                            <script type="text/javascript">
-                                jQuery("#widget-subscribe-form").validate({
-                                    submitHandler: function(form) {
-                                        jQuery(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
-                                        jQuery(form).ajaxSubmit({
-                                            target: '#widget-subscribe-form-result',
-                                            success: function() {
-                                                jQuery(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
-                                                jQuery('#widget-subscribe-form').find('.form-control').val('');
-                                                jQuery('#widget-subscribe-form-result').attr('data-notify-msg', jQuery('#widget-subscribe-form-result').html()).html('');
-                                                SEMICOLON.widget.notifications(jQuery('#widget-subscribe-form-result'));
-                                            }
-                                        });
-                                    }
-                                });
-                            </script>
-                        </div>
-
-                        <div class="widget clearfix" style="margin-bottom: -20px;">
-
-                            <div class="row">
-
-                                <div class="col-md-6 clearfix bottommargin-sm">
-                                    <a href="#" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
-                                        <i class="icon-facebook"></i>
-                                        <i class="icon-facebook"></i>
-                                    </a>
-                                    <a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-                                </div>
-                                <div class="col-md-6 clearfix">
-                                    <a href="#" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
-                                        <i class="icon-rss"></i>
-                                        <i class="icon-rss"></i>
-                                    </a>
-                                    <a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div><!-- .footer-widgets-wrap end -->
-
-            </div>
-
-            <!-- Copyrights
-            ============================================= -->
-            <div id="copyrights">
-
-                <div class="container clearfix">
-
-                    <div class="col_half">
-                        Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
-                        <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-                    </div>
-
-                    <div class="col_half col_last tright">
-                        <div class="fright clearfix">
-                            <a href="#" class="social-icon si-small si-borderless si-facebook">
-                                <i class="icon-facebook"></i>
-                                <i class="icon-facebook"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless si-twitter">
-                                <i class="icon-twitter"></i>
-                                <i class="icon-twitter"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless si-gplus">
-                                <i class="icon-gplus"></i>
-                                <i class="icon-gplus"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless si-pinterest">
-                                <i class="icon-pinterest"></i>
-                                <i class="icon-pinterest"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless si-vimeo">
-                                <i class="icon-vimeo"></i>
-                                <i class="icon-vimeo"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless si-github">
-                                <i class="icon-github"></i>
-                                <i class="icon-github"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless si-yahoo">
-                                <i class="icon-yahoo"></i>
-                                <i class="icon-yahoo"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless si-linkedin">
-                                <i class="icon-linkedin"></i>
-                                <i class="icon-linkedin"></i>
-                            </a>
-                        </div>
-
-                        <div class="clear"></div>
-
-                        <i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
-                    </div>
-
-                </div>
-
-            </div><!-- #copyrights end -->
-
-        </footer><!-- #footer end -->
+        @include('footer')
 
     </div><!-- #wrapper end -->
 
@@ -1322,7 +660,4 @@
 
     <!-- Footer Scripts
     ============================================= -->
-    <script type="text/javascript" src="assets/js/functions.js"></script>
-
-</body>
-</html>
+   @endsection 
