@@ -1,0 +1,54 @@
+$hh: 160px;
+
+
+#page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  border-top: solid 1px #e8e8e8;
+  transition: all 0.2s ease;
+  overflow: hidden;
+
+  header {
+    height: $hh;
+    padding: 20px 24px;
+    background-size: cover;
+    background-color: rgb(3, 155, 229);
+    background-image: url("../images/header-bg.png");
+    // box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    h1 {
+      font-weight: 400 !important;
+      font-size: 28px !important;
+      line-height: 40px;
+      color: #ffffff;
+      margin-top: 0;
+      padding-top: 10px;
+      i {
+        font-size: 28px;
+        margin-right: 10px;
+      }
+    }
+
+    .dash-title {
+      background: rgba(0, 0, 0, 0.12);
+      color: #FFFFFF;
+      padding: 8px 16px;
+      height: 40px;
+      line-height: 24px;
+      font-size: 16px;
+      display: inline-block;
+      margin-top: 40px;
+    }
+  }
+
+  > section.content{
+    height: calc(100% - 110px); //Header-n ondor-s deeshee panel-n ahisan ondriig nemeh
+    display: block;
+    padding: 0 40px 0 20px;
+  }
+}
+
+

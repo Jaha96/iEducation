@@ -1,0 +1,574 @@
+/* Header */
+
+#header {
+  background-color: $white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 1040;
+  //box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12)
+}
+
+.logo {
+  background-color: $primary;
+  float: left;
+  width: 70px;
+  height: 60px;
+  overflow: hidden;
+  a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    color: $white;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    span.logoText {
+      display: none;
+    }
+    img {
+      height: 40px;
+      margin-top: 10px;
+    }
+    strong{
+      line-height: 60px;
+      font-size: 24px;
+    }
+  }
+
+  &.expanded {
+    width: 200px;
+    a {
+      width: 200px;
+      text-align: left;
+      padding-left: 14px;
+      span.logoText {
+        width: 120px;
+        font-size: 22px;
+        position: absolute;
+        top: 15px;
+        left: 36px;
+        font-weight: bold;
+        display: block;
+      }
+      strong{
+        display: none;
+      }
+    }
+  }
+}
+
+a.navHandler {
+  display: block;
+  width: 60px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 17px;
+}
+
+//.no-touch a.navHandler:hover {
+//  background-color: #f3f3f3;
+//  text-decoration: none;
+//}
+
+a.mapHandler {
+  float: right;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 13px;
+  height: 50px;
+  width: 20px;
+  color: $white;
+  display: none;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+//.no-touch a.mapHandler:hover {
+//  background-color: transparent;
+//}
+
+a.userHandler {
+  position: relative;
+  float: right;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 13px;
+  height: 50px;
+  width: 20px;
+  color: $white;
+  display: none;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+//.no-touch a.userHandler:hover {
+//  background-color: transparent;
+//}
+
+.search {
+  float: left;
+  input {
+    background-color: $white;
+    color: #3a3a3a;
+    border: 0 none;
+    font-size: 13px;
+    margin: 19px 0 0 5px;
+    width: 210px;
+    -webkit-appearance: none;
+  }
+}
+
+.searchIcon {
+  font-size: 13px;
+  float: left;
+  color: #999;
+  margin-left: 23px;
+  display: block;
+  padding-top: 23px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  &.active {
+    color: #3a3a3a;
+  }
+}
+
+
+
+.headerNotifyWraper {
+  position: relative;
+  float: right;
+  width: 60px;
+  height: 60px;
+}
+
+a.headerNotify {
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 22px;
+  text-decoration: none;
+}
+
+//.no-touch a.headerNotify:hover, .headerNotifyWraper.open a.headerNotify {
+//  background-color: #f3f3f3;
+//  text-decoration: none;
+//}
+
+.notifyIcon {
+  font-size: 17px;
+}
+
+.counter {
+  background-color: #ea3d36;
+  color: $white;
+  position: absolute;
+  display: block;
+  padding: 2px;
+  font-size: 11px;
+  line-height: 10px;
+  top: 15px;
+  left: 30px;
+  border-radius: 7px;
+  text-align: center;
+  min-width: 14px;
+  text-decoration: none;
+}
+
+.headerNotifyWraper .dropdown-menu {
+  border-radius: 3px;
+  border: 1px solid #dfdfdf;
+}
+
+.notifyMenu, .userMenu {
+  width: 300px;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: -20px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.notifyMenu, .userMenu a, .notifyMenu, .userMenu a span {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.open .notifyMenu, .open .userMenu {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+}
+
+.notifyHeader {
+  padding: 10px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.notifyHeader span {
+  font-size: 13px;
+  line-height: 15px;
+  display: block;
+  float: left;
+}
+
+a.notifySettings {
+  display: block;
+  float: right;
+  text-decoration: none;
+  line-height: 11px;
+}
+
+.no-touch a.notifySettings:hover {
+  text-decoration: none;
+}
+
+.notifyList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.notifyList > li > a {
+  padding: 10px;
+  display: block;
+  position: relative;
+}
+
+.no-touch .notifyList > li > a:hover {
+  background-color: #f3f3f3;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.mobAvatar {
+  display: none;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.mobAvatarName {
+  padding-top: 5px;
+}
+
+.mobAvatarImg {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #e8e8e8;
+  padding: 3px;
+}
+
+.notify {
+  width: 233px;
+  margin-left: 5px;
+}
+
+.notifyName {
+  font-size: 12px;
+  color: #333;
+  padding-top: 3px;
+}
+
+.notifyTime {
+  font-size: 11px;
+  color: #999;
+}
+
+.notifyRound {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 11px;
+}
+
+.notifyRound-green {
+  border: 1px solid #0eaaa6;
+  color: #0eaaa6;
+}
+
+.notifyRound-blue {
+  border: 1px solid $primary;
+  color: $primary;
+}
+
+.notifyRound-red {
+  border: 1px solid #ea3d36;
+  color: #ea3d36;
+}
+
+.notifyRound-yellow {
+  border: 1px solid #eab134;
+  color: #eab134;
+}
+
+.notifyRound-magenta {
+  border: 1px solid #9b156e;
+  color: #9b156e;
+}
+
+.notifyAll {
+  padding: 10px;
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  color: $primary;
+}
+
+.no-touch .notifyAll:hover {
+  color: $primary;
+  text-decoration: underline;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1.0, 1.0);
+    opacity: 0.0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.4, 1.4);
+    opacity: 0.0;
+  }
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(1.0, 1.0);
+    opacity: 0.0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1.4, 1.4);
+    pacity: 0.0;
+  }
+}
+
+.pulse {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  opacity: 0.0;
+}
+
+.border-grey {
+  border: 3px solid #ababab;
+}
+
+.border-green {
+  border: 3px solid #0eaaa6;
+}
+
+.border-blue {
+  border: 3px solid $primary;
+}
+
+.border-red {
+  border: 3px solid #ea3d36;
+}
+
+.border-yellow {
+  border: 3px solid #eab134;
+}
+
+.border-magenta {
+  border: 3px solid #9b156e;
+}
+
+.bg-green {
+  background-color: #0eaaa6;
+}
+
+.bg-blue {
+  background-color: $primary;
+}
+
+.bg-red {
+  background-color: #ea3d36;
+}
+
+.bg-yellow {
+  background-color: #eab134;
+}
+
+.bg-magenta {
+  background-color: #9b156e;
+}
+
+.pulsate {
+  -webkit-animation: pulsate 0.5s ease-out;
+  animation: pulsate 0.5s ease-out;
+}
+
+.headerUserWraper {
+  float: right;
+  height: 60px;
+}
+
+a.headerUser {
+  display: block;
+  height: 60px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.no-touch a.headerUser:hover, .headerUserWraper.open a.headerUser {
+  background-color: #f3f3f3;
+}
+
+.headerUserWraper .dropdown-menu {
+  border-radius: 3px;
+  border: 1px solid #dfdfdf;
+}
+
+.headerAvatar {
+  margin-top: 10px;
+}
+
+.userTop {
+  margin: 20px 0 0 7px;
+  font-size: 13px;
+}
+
+.userMenu {
+  width: 190px;
+}
+
+.userMenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.userMenu ul > li > a {
+  padding: 7px 20px;
+  display: block;
+  font-size: 13px;
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.userMenu ul > li > a > span {
+  margin-right: 5px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.userMenu ul > li > a > span.badge {
+  font-size: 12px;
+  font-weight: normal;
+  margin-right: 0;
+}
+
+.no-touch .userMenu ul > li > a:hover > span.badge, .no-touch .userMenu ul > li > a:focus > span.badge {
+  color: $white;
+}
+
+.no-touch .userMenu ul > li > a:hover, .no-touch .userMenu ul > li > a:focus {
+  background-color: #f3f3f3;
+  text-decoration: none;
+}
+
+.no-touch .userMenu ul > li > a:hover > span, .no-touch .userMenu ul > li > a:focus > span {
+  color: $primary;
+}
+
+a.userHandler {
+  position: relative;
+  float: right;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 13px;
+  height: 50px;
+  width: 20px;
+  color: $white;
+  display: none;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.no-touch a.userHandler:hover {
+  background-color: transparent;
+}
+
+a.userHandler .counter {
+  top: 10px;
+  left: 12px;
+}
+
+.controlToggle {
+  float: right;
+}
+
+@media screen and (max-width: 767px) {
+  #header {
+    background-color: $primary;
+    height: 50px;
+  }
+  .search {
+    display: none;
+  }
+  .logo, .logo.expanded {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80px;
+    height: 50px;
+    margin-left: -40px;
+  }
+  .logo a, .logo.expanded a {
+    width: 70px;
+    height: 50px;
+    img {
+      margin-top: 5px;
+    }
+  }
+  .logo a span.marker, .logo.expanded a span.marker {
+    left: 0;
+    top: 10px;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+  .no-touch .logo a:hover span.marker, .no-touch .logo.expanded a:hover span.marker {
+    color: rgba(255, 255, 255, 1);
+    top: 10px;
+  }
+  .logo a span.logoText, .logo.expanded a span.logoText {
+    top: 14px;
+    left: 34px;
+  }
+  .no-touch .logo a:hover span.logoText, .no-touch .logo.expanded a:hover span.logoText {
+    top: 14px;
+  }
+  .mobAvatar {
+    display: block;
+  }
+}

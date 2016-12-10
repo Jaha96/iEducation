@@ -1,0 +1,14 @@
+#analytics{
+  height: 600px;
+  background: #ffffff url("../../../images/analytics.png") no-repeat center;
+  background-size: 96% 90%;
+}
+
+.rightPanel{
+  width: 240px;
+  height: 100%;
+  float: right;
+  z-index: -1;
+  background: url("../../../images/widget.png") no-repeat left top;
+  background-size: cover;
+}

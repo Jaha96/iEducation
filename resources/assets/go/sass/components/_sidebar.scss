@@ -1,0 +1,299 @@
+#leftSide {
+  background-color: $dark;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 70px;
+  z-index: 10000;
+  padding-top: 30px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  .leftNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      position: relative;
+      width: 70px;
+      margin: 8px 0;
+      &.divider {
+        background-color: darken($dark, 5%);
+        height: 1px;
+        padding: 0;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+#leftSide.expanded {
+  width: 200px;
+  .leftNav ul li {
+    width: 100%;
+  }
+}
+
+.closeLeftSide {
+  display: none;
+}
+
+.leftNav ul li {
+  a {
+    display: block;
+    font-size: 16px;
+    color: #acc1c9;
+    width: 70px;
+    height: 60px;
+    overflow: hidden;
+    text-decoration: none;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    span {
+      position: absolute;
+      width: 70px;
+      display: block;
+      text-align: center;
+      z-index: 110;
+      -webkit-transition: all .1s ease-in-out;
+      -o-transition: all .1s ease-in-out;
+      transition: all .1s ease-in-out;
+      text-decoration: none;
+    }
+  }
+}
+
+.expanded .leftNav ul li {
+  a {
+    width: 200px;
+    height: auto;
+    padding: 10px 20px;
+    span {
+      position: relative;
+      width: auto;
+      display: inline-block;
+      text-align: left;
+    }
+  }
+}
+
+.no-touch .leftNav ul li:hover a, .leftNav ul li.onTap a {
+  color: $primary;
+}
+
+.leftNav ul li.active a {
+  background-color: darken($dark, 5%);
+  color: lighten($primary, 10%);
+  font-weight: 500;
+  //border-left: solid 2px $primary;
+  span.navIcon {
+    font-weight: 500;
+  }
+}
+
+.expanded .leftNav > ul > li.onTap > a {
+  background-color: transparent;
+  color: #acc1c9;
+}
+
+.expanded .leftNav > ul > li.active > a {
+  background-color: $primary;
+  color: $white;
+}
+
+.leftNav ul li a span.navIcon {
+  top: 13px;
+}
+
+.expanded .leftNav ul li a span.navIcon {
+  top: auto;
+  margin-right: 10px;
+}
+
+.leftNav ul li a span.navLabel {
+  font-size: 11px;
+  bottom: 10px;
+  left: 0px;
+}
+
+.expanded .leftNav ul li a span.navLabel {
+  bottom: 2px;
+  left: 0;
+  font-size: 12px;
+}
+
+.no-touch .leftNav ul li:hover a span.navIcon, .leftNav ul li.onTap a span.navIcon {
+  top: 13px;
+  text-decoration: none;
+}
+
+.no-touch .expanded .leftNav ul li:hover a span.navIcon, .expanded .leftNav ul li.onTap a span.navIcon {
+  top: auto;
+  text-decoration: none;
+}
+
+.no-touch .leftNav ul li:hover a span.navLabel, .leftNav ul li.onTap a span.navLabel {
+  left: 0;
+  text-decoration: none;
+}
+
+//Bottom side
+.sidebar-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 110;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    left: 0;
+    z-index: 1100;
+    -webkit-transition: all .12s ease-in-out;
+    -o-transition: all .12s ease-in-out;
+    transition: all .12s ease-in-out;
+    .divider {
+      background-color: darken($dark, 5%);
+      height: 1px;
+      padding: 0;
+      margin-top: 5px;
+    }
+    li {
+      width: 100%;
+      text-align: center;
+      padding: 6px 0;
+      position: relative;
+      &.power {
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+      a {
+        width: 100%;
+        font-size: 11px;
+        padding: 7px 0px;
+        display: block;
+        color: #93a4aa;
+        height: auto;
+        text-decoration: none;
+        -webkit-transition: all .12s ease-in-out;
+        -o-transition: all .12s ease-in-out;
+        transition: all .12s ease-in-out;
+        text-align: center;
+        span {
+          color: #93a4aa;
+          margin-right: 5px;
+          -webkit-transition: all .12s ease-in-out;
+          -o-transition: all .12s ease-in-out;
+          transition: all .12s ease-in-out;
+          width: 100%;
+          &.navLabel {
+            padding-top: 5px;
+            display: none;
+          }
+          &.navIcon {
+            font-size: 17px;
+            padding-bottom: 5px;
+          }
+        }
+      }
+
+      &.active{
+        background-color: darken($dark, 5%);
+        font-weight: 500;
+        a {
+          span {
+            font-weight: 500;
+            color: lighten($primary, 10%);
+          }
+        }
+      }
+
+      &:hover{
+        //background: $primary;
+        a {
+          span {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+.expanded .sidebar-bottom {
+  ul {
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    li {
+      a {
+        color: #333;
+        text-align: left;
+        padding-left: 20px;
+        -webkit-transition: all .12s ease-in-out;
+        -o-transition: all .12s ease-in-out;
+        transition: all .12s ease-in-out;
+        span {
+          &.navIcon {
+            margin-right: 10px;
+          }
+          &.navLabel {
+            font-size: 12px;
+            margin-right: 10px;
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.no-touch .sidebar-bottom ul li a:hover, .no-touch .sidebar-bottom ul li a:focus {
+  color: $primary;
+}
+
+.no-touch .expanded .sidebar-bottom ul li a:hover, .no-touch .expanded .sidebar-bottom ul li a:focus {
+  color: $primary;
+}
+
+.no-touch .expanded .sidebar-bottom ul li a:hover span, .no-touch .expanded .sidebar-bottom ul li a:focus span {
+  color: $primary;
+}
+
+@media screen and (max-width: 767px) {
+  #leftSide {
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    margin-left: -87%;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  #leftSide.expanded {
+    width: 87%;
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0;
+  }
+  .closeLeftSide {
+    width: 13%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 100;
+  }
+  .expanded .leftNav ul li {
+    width: 100%;
+  }
+  .expanded .leftNav ul li a {
+    width: 100%;
+  }
+  .expanded .leftNav > ul > li > ul {
+    width: 100%;
+  }
+}

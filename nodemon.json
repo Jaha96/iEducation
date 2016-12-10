@@ -1,0 +1,19 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    ".idea",
+    "node_modules",
+    "public",
+    "resources/assets",
+    "app",
+    "bootstrap",
+    "config",
+    "database",
+    "tests",
+    "storage",
+    "vendor",
+    "tp"
+  ],
+  "ext": "js json html"
+}

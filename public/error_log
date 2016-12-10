@@ -1,0 +1,8 @@
+[14-Jun-2016 14:20:24 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dowellmn/public_html/demo3/storage/framework/views/3f2b0f6bb4fe25edaf7b21b45922bf887c987bba.php on line 39
+[14-Jun-2016 14:20:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dowellmn/public_html/demo3/storage/framework/views/3f2b0f6bb4fe25edaf7b21b45922bf887c987bba.php on line 39
+[30-Jul-2016 06:28:25 UTC] PHP Fatal error:  Class 'App\Http\Controllers\DB' not found in /home/dowellmn/public_html/demo3/app/Http/Controllers/AutopartController.php on line 230
+[07-Aug-2016 05:23:50 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Paginator' not found in /home/dowellmn/public_html/demo3/app/Http/Controllers/FilterController.php on line 22
+[07-Aug-2016 05:24:34 UTC] PHP Fatal error:  Call to undefined method Illuminate\Contracts\Pagination\Paginator::currentPageResolver() in /home/dowellmn/public_html/demo3/app/Http/Controllers/FilterController.php on line 23
+[07-Aug-2016 05:24:35 UTC] PHP Fatal error:  Call to undefined method Illuminate\Contracts\Pagination\Paginator::currentPageResolver() in /home/dowellmn/public_html/demo3/app/Http/Controllers/FilterController.php on line 23
+[07-Aug-2016 05:29:21 UTC] PHP Fatal error:  Class 'App\Http\Controllers\DB' not found in /home/dowellmn/public_html/demo3/app/Http/Controllers/FilterController.php on line 27
+[07-Aug-2016 05:36:13 UTC] PHP Fatal error:  Function name must be a string in /home/dowellmn/public_html/demo3/app/Http/Controllers/FilterController.php on line 48

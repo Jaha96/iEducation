@@ -1,0 +1,130 @@
+.checkbox.switch {
+  padding-top: 4px;
+}
+
+.checkbox.custom-checkbox input[type="checkbox"],
+.radio.custom-radio input[type="radio"],
+.checkbox.switch input[type="checkbox"] {
+  position: absolute;
+  left: -9999em;
+}
+
+.checkbox.custom-checkbox label,
+.radio.custom-radio label,
+.checkbox.switch label {
+  padding-left: 0;
+}
+
+.checkbox.custom-checkbox span,
+.radio.custom-radio span {
+  background-color: $white;
+  border: 1px solid #999;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 3px;
+  border-radius: 2px;
+  float: left;
+  margin-right: 5px;
+  color: $white;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.radio.custom-radio span {
+  border-radius: 50%;
+  line-height: 9px;
+}
+
+.checkbox.custom-checkbox input:checked + span,
+.radio.custom-radio input:checked + span {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.checkbox.custom-checkbox input[disabled] + span,
+fieldset[disabled] .checkbox.custom-checkbox input + span,
+.radio.custom-radio input[disabled] + span,
+fieldset[disabled] .radio.custom-radio input + span {
+  border-color: #e8e8e8;
+}
+
+.checkbox.custom-checkbox input[disabled]:checked + span,
+fieldset[disabled] .checkbox.custom-checkbox input:checked + span,
+.radio.custom-radio input[disabled]:checked + span,
+fieldset[disabled] .radio.custom-radio input:checked + span {
+  border-color: #b9ebb9;
+  background-color: #b9ebb9;
+}
+
+.checkbox.switch span.cs-place {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  border-radius: 30px;
+  background-color: $white;
+  border: 1px solid #c4c4c4;
+  display: inline-block;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.checkbox.switch span.cs-handler {
+  background-color: $white;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border: 1px solid #c4c4c4;
+  border-radius: 50%;
+  padding: 5px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: $white;
+}
+
+.checkbox.switch span.check-label{
+  margin-left: 10px;
+  margin-top: 2px;
+  float: right;
+}
+
+.checkbox.switch input:checked + span.cs-place {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.checkbox.switch input:checked + span.cs-place span.cs-handler {
+  margin-left: 26px;
+  color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.checkbox.switch input[disabled] + span.cs-place,
+fieldset[disabled] .checkbox.switch input + span.cs-place {
+  border-color: #dddddd;
+}
+
+.checkbox.switch input[disabled] + span.cs-place span.cs-handler,
+fieldset[disabled] .checkbox.switch input + span.cs-place span.cs-handler {
+  border-color: #dddddd;
+}
+
+.checkbox.switch input:checked[disabled] + span.cs-place,
+fieldset[disabled] .checkbox.switch input:checked + span.cs-place {
+  border-color: #b9ebb9;
+  background-color: #b9ebb9;
+}
+
+.checkbox.switch input:checked[disabled] + span.cs-place span.cs-handler,
+fieldset[disabled] .checkbox.switch input:checked + span.cs-place span.cs-handler {
+  color: #b9ebb9;
+  border-color: #b9ebb9;
+}
+
+.round {
+  border-radius: 100px;
+}
