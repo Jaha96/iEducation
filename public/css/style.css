@@ -937,6 +937,28 @@ div#faculty{
 	font-size: 16px;
 	text-align:center;
 }
+
+div#submen{
+	background-color:#52B0BA;
+	text-align:center;
+	padding:50px 0px;
+	margin-top: 100px;
+}
+.submen h3{
+	color:#fff;
+	padding-left: 4%;
+	text-align:left;
+	font-size:30px;
+}
+.submen p{
+	color:#797979;
+	padding-bottom:30px;
+	width:55%;
+	margin:0 auto;
+	font-size: 16px;
+	text-align:center;
+}
+
 .ftop p{
 	color: #797979;
     padding-bottom: 30px;
