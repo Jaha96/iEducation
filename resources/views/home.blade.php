@@ -79,40 +79,15 @@
                         
                             <li><a href="shop.html"><div>More</div></a>
                                 <ul>
-                                    <li><a href="shop.html"><div>4 Columns</div></a></li>
-                                    <li><a href="shop-3.html"><div>3 Columns</div></a>
+                                    <li><a href="shop.html"><div>Police Organization</div></a></li>
+                                    <li><a href="shop-3.html"><div>Hospital</div></a></li>
+                                    <li><a href="shop-3.html"><div>Legal</div></a>
                                         <ul>
-                                            <li><a href="shop-3.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-3-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-3-left-sidebar.html"><div>Left Sidebar</div></a></li>
+                                            <li><a href="shop-2-right-sidebar.html"><div>Legal1</div></a></li>
+                                            <li><a href="shop-2-left-sidebar.html"><div>Legal2</div></a></li>
+                                            <li><a href="shop-2-both-sidebar.html"><div>Legal3</div></a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop-2.html"><div>2 Columns</div></a>
-                                        <ul>
-                                            <li><a href="shop-2-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-2-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-2-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop-1.html"><div>1 Columns</div></a>
-                                        <ul>
-                                            <li><a href="shop-1.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-1-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-1-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-1-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="shop-category-parallax.html"><div>Categories - Parallax</div></a></li>
-                                    <li><a href="shop-single.html"><div>Single Product</div></a>
-                                        <ul>
-                                            <li><a href="shop-single.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-single-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-single-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="cart.html"><div>Cart</div></a></li>
-                                    <li><a href="checkout.html"><div>Checkout</div></a></li>
                                 </ul>
                             </li>
                             
