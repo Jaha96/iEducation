@@ -58,7 +58,8 @@
                             <li class="current"><a href="index.html"><div>Home</div></a>
                                 
                             </li>
-                            <li class="current"><a href="index.html"><div>► First time? Start Here</div></a>
+                            <li class="current"><a href="index.html"><div>► First time? Start Here ◄
+                            </div></a>
                                 
                             </li>
                             
@@ -393,12 +394,8 @@
                                 <span class="before-heading color">Easily Understandable &amp; Customizable.</span>
                                 <h3>Walkthrough Videos &amp; Demos</h3>
                             </div>
-
                             <div class="center bottommargin">
-                                <a href="http://vimeo.com/101373765" data-lightbox="iframe" style="position: relative;">
-                                    <img src="assets/images/services/video.jpg" alt="Video">
-                                    <span class="i-overlay nobg"><img src="assets/images/icons/video-play.png" alt="Play"></span>
-                                </a>
+                            <iframe  src="https://www.youtube.com/embed/6Acv6xPXuzA" frameborder="0" allowfullscreen></iframe>
                             </div>
                             <p class="lead nobottommargin">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
                         </div>

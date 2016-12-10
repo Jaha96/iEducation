@@ -30,6 +30,8 @@ Route::group([
     Route::get('user/{slug}/', 'UserController@EntryPoint');
     Route::post('user/{slug}/{action}', 'UserController@EntryPoint');
 
+    Route::get('listLessons', 'LessonController@showList');
+
     Route::get('content/{slug}/', 'ContentController@EntryPoint');
     Route::post('content/{slug}/{action}', 'ContentController@EntryPoint');
 
