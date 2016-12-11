@@ -13,8 +13,8 @@
 
 Route::get('/', 'PassportController@index');
 Route::get('jobs',['as'=>'jobs','uses'=>'PassportController@jobs']);
-
-
+//comment
+Route::resource('comments/{post_id}',['uses'=>'CommentController@store', 'as'=>'comments.store']);
 
 
 Route::get('go/login', ['as' => 'login', 'uses' => 'AuthController@index']);
