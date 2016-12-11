@@ -15,7 +15,7 @@
                     <div class="swiper-slide dark" style="background-image: url('assets/images/slider/swiper/1.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-center">
-                                <h2 data-caption-animate="fadeInUp">Welcome to Canvas</h2>
+                                <h2 data-caption-animate="fadeInUp">Welcome to Mongolian</h2>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on your own Canvas.</p>
                             </div>
                         </div>
@@ -450,72 +450,64 @@ Sleeping in a rough-and-ready Mongolian ger is a quintessential grassland experi
                         <div class="col-md-3 col-sm-6 bottommargin">
                             <div class="ipost clearfix">
                                 <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/1.jpg" alt="Image"></a>
+                                    <a href="#"><img class="image_fade" src="assets/images/museum.jpg" alt="Image"></a>
                                 </div>
                                 <div class="entry-title">
-                                    <h3><a href="blog-single.html">Bloomberg smart cities; change-makers economic security</a></h3>
+                                    <h3><a href="blog-single.html">The best galleries and museums</a></h3>
                                 </div>
                                 <ul class="entry-meta clearfix">
                                     <li><i class="icon-calendar3"></i> 13th Jun 2014</li>
                                     <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 53</a></li>
                                 </ul>
-                                <div class="entry-content">
-                                    <p>Prevention effect, advocate dialogue rural development lifting people up community civil society. Catalyst, grantees leverage.</p>
-                                </div>
+                                
                             </div>
                         </div>
 
                         <div class="col-md-3 col-sm-6 bottommargin">
                             <div class="ipost clearfix">
                                 <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/2.jpg" alt="Image"></a>
+                                    <a href="#"><img class="image_fade" src="assets/images/coffeeshops.jpg" alt="Image"></a>
                                 </div>
                                 <div class="entry-title">
-                                    <h3><a href="blog-single.html">Medicine new approaches communities, outcomes partnership</a></h3>
+                                    <h3><a href="blog-single.html">12 venues/Coffee shop</a></h3>
                                 </div>
                                 <ul class="entry-meta clearfix">
                                     <li><i class="icon-calendar3"></i> 24th Feb 2014</li>
                                     <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 17</a></li>
                                 </ul>
-                                <div class="entry-content">
-                                    <p>Cross-agency coordination clean water rural, promising development turmoil inclusive education transformative community.</p>
-                                </div>
+                            
                             </div>
                         </div>
 
                         <div class="col-md-3 col-sm-6 bottommargin">
                             <div class="ipost clearfix">
                                 <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/3.jpg" alt="Image"></a>
+                                    <a href="#"><img class="image_fade" src="assets/images/ub-night.jpg" alt="Image"></a>
                                 </div>
                                 <div class="entry-title">
-                                    <h3><a href="blog-single.html">Significant altruism planned giving insurmountable challenges liberal</a></h3>
+                                    <h3><a href="blog-single.html">17 venues/UB night life</a></h3>
                                 </div>
                                 <ul class="entry-meta clearfix">
                                     <li><i class="icon-calendar3"></i> 30th Dec 2014</li>
                                     <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 13</a></li>
                                 </ul>
-                                <div class="entry-content">
-                                    <p>Micro-finance; vaccines peaceful contribution citizens of change generosity. Measures design thinking accelerate progress medical initiative.</p>
-                                </div>
+                        
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-6 bottommargin">
+                         <div class="col-md-3 col-sm-6 bottommargin">
                             <div class="ipost clearfix">
                                 <div class="entry-image">
-                                    <a href="#"><img class="image_fade" src="assets/images/magazine/thumb/4.jpg" alt="Image"></a>
+                                    <a href="#"><img class="image_fade" src="assets/images/museum.jpg" alt="Image"></a>
                                 </div>
                                 <div class="entry-title">
-                                    <h3><a href="blog-single.html">Compassion conflict resolution, progressive; tackle</a></h3>
+                                    <h3><a href="blog-single.html">The best galleries and museums</a></h3>
                                 </div>
                                 <ul class="entry-meta clearfix">
-                                    <li><i class="icon-calendar3"></i> 15th Jan 2014</li>
-                                    <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 54</a></li>
+                                    <li><i class="icon-calendar3"></i> 13th Jun 2014</li>
+                                    <li><a href="blog-single.html#comments"><i class="icon-comments"></i> 53</a></li>
                                 </ul>
-                                <div class="entry-content">
-                                    <p>Community health workers best practices, effectiveness meaningful work The Elders fairness. Our ambitions local solutions globalization.</p>
-                                </div>
+                                
                             </div>
                         </div>
 
@@ -535,16 +527,16 @@ Sleeping in a rough-and-ready Mongolian ger is a quintessential grassland experi
                     <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
                         <div>
                             <i class="i-plain i-xlarge divcenter icon-line2-directions"></i>
-                            <div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K</div>
-                            <h5>Lines of Codes</h5>
+                            <div class="counter counter-lined"><span data-from="100" data-to="140" data-refresh-interval="50" data-speed="2000"></span></div>
+                            <h5>We Have People Learning With Us In 199 Countries</h5>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
                         <div>
                             <i class="i-plain i-xlarge divcenter icon-line2-graph"></i>
-                            <div class="counter counter-lined"><span data-from="3000" data-to="21500" data-refresh-interval="100" data-speed="2500"></span></div>
-                            <h5>KBs of HTML Files</h5>
+                            <div class="counter counter-lined"><span data-from="3000" data-to="40000" data-refresh-interval="100" data-speed="2500"></span></div>
+                            <h5>We Have More Than 400,000 Students Around The World!</h5>
                         </div>
                     </div>
 
@@ -552,15 +544,15 @@ Sleeping in a rough-and-ready Mongolian ger is a quintessential grassland experi
                         <div>
                             <i class="i-plain i-xlarge divcenter icon-line2-layers"></i>
                             <div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500"></span></div>
-                            <h5>No. of Templates</h5>
+                            <h5>More Than 300 Mongolian Lessons Published So Far</h5>
                         </div>
                     </div>
 
                     <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
                         <div>
                             <i class="i-plain i-xlarge divcenter icon-line2-clock"></i>
-                            <div class="counter counter-lined"><span data-from="60" data-to="1400" data-refresh-interval="30" data-speed="2700"></span></div>
-                            <h5>Hours of Coding</h5>
+                            <div class="counter counter-lined"><span data-from="60" data-to="14" data-refresh-interval="30" data-speed="2700"></span></div>
+                            <h5>20 Published Textbooks Available In Major Bookstores And Online</h5>
                         </div>
                     </div>
 

@@ -9,8 +9,8 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo">
-                        <a href="index.html" class="standard-logo" data-dark-logo="assets/images/logo-dark.png"><img src="assets/images/logo.png" alt="Canvas Logo"></a>
-                        <a href="index.html" class="retina-logo" data-dark-logo="assets/images/logo-dark@2x.png"><img src="assets/images/logo@2x.png" alt="Canvas Logo"></a>
+                        <a href="/" class="standard-logo" data-dark-logo="assets/images/logo-dark.png"><img src="assets/images/logo.png" alt="Canvas Logo"></a>
+                        <a href="/" class="retina-logo" data-dark-logo="assets/images/logo-dark@2x.png"><img src="assets/images/logo@2x.png" alt="Canvas Logo"></a>
                     </div><!-- #logo end -->
 
                     <!-- Primary Navigation
@@ -21,7 +21,7 @@
                             <li class="current"><a href="/"><div>Home</div></a>
                                 
                             </li>
-                            <li class="current"><a href="/jobs"><div>Informations</div></a>
+                            <li><a href="/jobs"><div>Informations</div></a>
                                 <ul>
                                     <li><a href="#"><div><i class="icon-stack"></i>General Information</div></a>
                                         
@@ -55,9 +55,9 @@
                                 </ul>
                             </li>
 
-                            <li class="current"><a href="/jobs"><div>Learn Mongolian</div></a>
+                            <li ><a href="/jobs"><div>Learn Mongolian</div></a>
                                 <ul>
-                                    <li><a href="#"><div><i class="icon-stack"></i>Level 1-Greetings</div></a>
+                                    <li><a href="/greating-lvl"><div><i class="icon-stack"></i>Level 1-Greetings</div></a>
                                         
                                     </li>
                                     <li><a href="#"><div><i class="icon-gift"></i>Level 2-Numbers</div></a>
@@ -70,7 +70,7 @@
                             
                             <li><a href="#"><div>Education</div></a>
                                 <ul>
-                                    <li><a href="#"><div><i class="icon-stack"></i>Video</div></a>
+                                    <li><a href="/video"><div><i class="icon-stack"></i>Video</div></a>
                                         
                                     </li>
                                     <li><a href="#"><div><i class="icon-gift"></i>Audio</div></a>
