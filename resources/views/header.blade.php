@@ -22,34 +22,46 @@
                                 
                             </li>
                             <li class="current"><a href="/jobs"><div>Informations</div></a>
-                                
-                            </li>
-
-                             <li><a href="#"><div>Education</div></a>
                                 <ul>
-                                    <li><a href="#"><div><i class="icon-stack"></i>Video</div></a>
+                                    <li><a href="#"><div><i class="icon-stack"></i>General Information</div></a>
                                         
                                     </li>
-                                    <li><a href="#"><div><i class="icon-gift"></i>Audio</div></a>
+                                    <li><a href="#"><div><i class="icon-gift"></i>Aimags</div></a>
+                                    <ul>
+                                        <li>Arkhangai</li>
+                                        <li>Arkhangai</li>
+                                        <li>Arkhangai</li>
+                                        <li>Arkhangai</li>
+                                        <li>Arkhangai</li>
+                                        <li>Arkhangai</li>
+                                    </ul>
                                         
-                                    </li>
-                                    <li><a href="#"><div><i class="icon-umbrella"></i>Reading</div></a>
-                                       
                                     </li>
                                    
                                 </ul>
                             </li>
 
-                            <li class="current"><a href="/jobs"><div>Attractions</div></a>
+                             <li><a href="#"><div>Attractions</div></a>
                                 <ul>
-                                    <li><a href="#"><div><i class="icon-stack"></i>Venues/ UB night life</div></a>
+                                    <li><a href="#"><div><i class="icon-stack"></i>Venues/UB nightmare</div></a>
                                         
                                     </li>
-                                    <li><a href="#"><div><i class="icon-gift"></i>Venues / Coffee shop</div></a>
+                                    <li><a href="#"><div><i class="icon-gift"></i>Venues/Coffee shop</div></a>
                                         
                                     </li>
-                                    <li><a href="#"><div><i class="icon-umbrella"></i>Best galliries and Museums</div></a>
-                                       
+                                    <li><a href="#"><div><i class="icon-umbrella"></i>Best Galleries and museums</div></a> </li>
+                                    <li>.</li>
+                                   
+                                </ul>
+                            </li>
+
+                            <li class="current"><a href="/jobs"><div>Learn Mongolian</div></a>
+                                <ul>
+                                    <li><a href="#"><div><i class="icon-stack"></i>Level 1-Greetings</div></a>
+                                        
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-gift"></i>Level 2-Numbers</div></a>
+                                        
                                     </li>
                     
                                    

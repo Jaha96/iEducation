@@ -152,7 +152,7 @@
                     <div class="row topmargin-lg bottommargin-sm">
 
                         <div class="heading-block center">
-                            <h2>10 great reasons to travel Mongolia</h2>
+                            <h2>6 great reasons to travel Mongolia</h2>
                         </div>
 
                         <div class="col-md-4 col-sm-6 bottommargin">
@@ -161,8 +161,8 @@
                                 <div class="fbox-icon">
                                     <a href="#"><i class="icon-line-heart"></i></a>
                                 </div>
-                                <h3>1.MOST CAPTIVATING SUNRISES IN THE WORLD</h3>
-                                <p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
+                                <h3>Eat the world’s weirdest breakfast</h3>
+                                <p>Boodog is an ancient steppe cooking technique still used today when herdsmen find themselves far from home.</p>
                                 <a href="#"  data-toggle="modal" data-target="#myModal1">See More</a>
                             </div>
                         <!-- Modal -->
@@ -174,8 +174,10 @@
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                             
                             <img src="assets/images/reasons/1.jpg">
-                            <h5 style="padding-top: 20px">MOST CAPTIVATING SUNRISES (AND SUNSETS) IN THE WORLD</h5>
-                            <p>Haruki Murakami, best –selling Japanese author “Dawn in Mongolia was an amazing thing. In one instant, the horizon became a faint line suspended in the darkness, and then the line was drawn upward, higher and higher. It was as if a giant hand had stretched down from the sky and slowly lifted the curtain of night from the face of the earth. It was a magnificent sight, far greater in scale … than anything that I, with my limited human faculties, could fully comprehended”</p>
+                            <h5 style="padding-top: 20px">Boodog is an ancient steppe cooking technique still used today when herdsmen find themselves far from home.</h5><p>
+
+An animal – usually a marmot – is sliced open and stuffed with river stones heated on a fire, creating a primeval pressure cooker (they have been known to explode on occasion). The fur is then singed off and the meat carved up to eat. If you’re lucky you might get treated to this, ahem, delicacy as the morning sun warms your ger. It’s the preserve of men, which is hardly surprising – there’s no washing-up. A posher version is the khorkhog – a goat cooked with hot stones inside a milk churn.
+</p>
                         </div>
                     </div>
                 </div>
@@ -185,8 +187,8 @@
                                 <div class="fbox-icon">
                                     <a href="#"><i class="icon-line-paper"></i></a>
                                 </div>
-                                <h3>Extensive Documentation</h3>
-                                <p>We have covered each &amp; everything in our Docs including Videos &amp; Screenshots.</p>
+                                <h3>Go glamping</h3>
+                                <p>Mongolian ger.</p>
                                 <a href="#"  data-toggle="modal" data-target="#myModal2">See More</a>
                             </div>
 
@@ -199,8 +201,10 @@
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                             
                             <img src="assets/images/reasons/2.jpg">
-                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
-                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                            <h5 style="padding-top: 20px">Mongolian ger</h5>
+                            <p>
+Sleeping in a rough-and-ready Mongolian ger is a quintessential grassland experience, but a growing number of tour operators are establishing sustainable, nomad-run ger camps that target the posh adventurer with innovative luxuries. Nomadic Journeys operates gercamps at pristine wilderness sites that feature heated eco-showers, hand-painted beds with thick yak’s wool blankets, and even a sauna ger. For the truly adventurous, they’ll open up an airstrip and fly people into the great Mongolian void – 365 degrees of pristine emptiness, and it’s all yours.
+</p>
                         </div>
                     </div>
                 </div>
@@ -210,8 +214,8 @@
                                 <div class="fbox-icon">
                                     <a href="#"><i class="icon-line-layers"></i></a>
                                 </div>
-                                <h3>Parallax Support</h3>
-                                <p>Display your Content attractively using Parallax Sections with HTML5 Videos.</p>
+                                <h3>Get spiritual</h3>
+                                <p>The Erdene Zuu Khiid monastery, Mongolia's most important Buddhist site</p>
                                 <a href="#"  data-toggle="modal" data-target="#myModal3">See More</a>
                             </div>
                             <div class="modal fade" id="myModal3" role="dialog">
@@ -222,8 +226,10 @@
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                             
                             <img src="assets/images/reasons/3.jpg">
-                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
-                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                            <h5 style="padding-top: 20px">The Erdene Zuu Khiid monastery, Mongolia's most important Buddhist site</h5>
+                            <p>The Erdene Zuu Khiid monastery, Mongolia's most important Buddhist site 
+ (Buddhism came to Mongolia via Nepal and China), was constructed out of the rubble of Chinggis Khan’s capital, Karakorum. But the country’s far older shamanistic tradition reveals itself on crags and hilltops –heaps of stones called ovoos are laced with horse skulls and strips of blue cloth, the colour symbolising sky worship. A few days on the steppe and you start to understand: the green grassland is a constant – it’s the ever-changing ‘eternal blue sky’, with its puffy banks of buffeting clouds, rain, wind and azure stillness, that lends form to every vista.
+</p>
                         </div>
                     </div>
                 </div>
@@ -241,8 +247,8 @@
                                 <div class="fbox-icon">
                                     <a href="#"><i class="icon-line-power"></i></a>
                                 </div>
-                                <h3>HTML5 Video</h3>
-                                <p>Canvas provides support for Native HTML5 Videos that can be added to a Background.</p>
+                                <h3>Sip the milk of the horse</h3>
+                                <p>Lip-puckeringly sour, it’s an acquired taste, but the locals live by it. Airag is the tonic of weddings, funerals, and frankly any other excuse for a knees-up.</p>
                                 <a href="#"  data-toggle="modal" data-target="#myModal4">See More</a>
                             </div>
                              <!-- Modal -->
@@ -254,8 +260,8 @@
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                             
                             <img src="assets/images/reasons/4.jpg">
-                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
-                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                            <h5 style="padding-top: 20px">Lip-puckeringly sour, it’s an acquired taste, but the locals live by it. Airag is the tonic of weddings, funerals, and frankly any other excuse for a knees-up.</h5>
+                            <p>In the countryside, little girls in frilly dresses sit by the roadside hawking plastic bottles of airag – horse’s milk left to ferment outside a ger in a leather bag until it becomes alcoholic. Lip-puckeringly sour, it’s an acquired taste, but the locals live by it. Airag is the tonic of weddings, funerals, and frankly any other excuse for a knees-up. One reason for producing airag is that the fermentation process reduces the high levels of lactose (a natural laxative) found in mare’s milk.</p>
                         </div>
                     </div>
                 </div>
@@ -265,8 +271,8 @@
                                 <div class="fbox-icon">
                                     <a href="#"><i class="icon-line-check"></i></a>
                                 </div>
-                                <h3>Endless Possibilities</h3>
-                                <p>Complete control on each &amp; every element that provides endless customization.</p>
+                                <h3>Munch on mutton</h3>
+                                <p>Dairy product</p>
                                 <a href="#"  data-toggle="modal" data-target="#myModal5">See More</a>
                             </div>
                                             <!-- Modal -->
@@ -277,9 +283,9 @@
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                             
-                            <img src="assets/images/reasons/2.jpg">
-                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
-                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                            <img src="assets/images/reasons/5.jpg">
+                            <h5 style="padding-top: 20px">Munch on mutton</h5>
+                            <p>You can eat everything from Asian fusion to KFC in Ulaanbaatar, but outside the capital, the flesh (and milk) of the sheep and goat are staples. After a summer ‘white season’ of mostly dairy foods, Mongolians quench their ‘meat hunger’ with mutton – boiled, fried or cooked in dumplings called buuz or pastries known as khuushuur. Milk is heated to make a clotted cream called orom, spread thick and yellow over slabs of Russian bread, and made into cheese curds called as aaruul, like rock-hard, lemony gobstoppers.</p>
                         </div>
                     </div>
                 </div>
@@ -288,9 +294,9 @@
                                 <div class="fbox-icon">
                                     <a href="#"><i class="icon-bulb"></i></a>
                                 </div>
-                                <h3>Light &amp; Dark Color Schemes</h3>
-                                <p>Change your Website's Primary Scheme instantly by simply adding the dark class.</p>
-                                <a href="#"  data-toggle="modal" data-target="#myModal5">See More</a>
+                                <h3>Explore the capital</h3>
+                                <p>Originally a sort of mobile yurt monastery, Ulaanbaatar has become Mongolia’s only true city.</p>
+                                <a href="#"  data-toggle="modal" data-target="#myModal6">See More</a>
                             </div>
                                                       <!-- Modal -->
             <div class="modal fade" id="myModal6" role="dialog">
@@ -300,9 +306,12 @@
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
                             
-                            <img src="assets/images/reasons/2.jpg">
-                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
-                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                            <img src="assets/images/reasons/6.jpg">
+                            <h5 style="padding-top: 20px">Explore the capital</h5>
+                            <p>Originally a sort of mobile yurt monastery, Ulaanbaatar has become Mongolia’s only true city.
+
+ Best visited during the brief summer season, it has a curious, weather-worn appeal – a muddle of crumbling Soviet-era apartments, ger ghettos and shiny Chinese-built high-rises. Recently, a cafe culture has taken hold, complemented by some excellent restaurants, cashmere fashions, a monument to the Beatles, and, oddly, one of the finest LEGO shops outside Denmark. Culturally, the ramshackle Choijin Lama Temple presents gruesome murals of Buddhist hell, while at the State Youth & Children's Theatre, the Tumen Ekh ensemble specialises in the stirring art of throat-singing, the epic ‘long song’, shamanist dancing and contortionism.
+</p>
                         </div>
                     </div>
                 </div>
@@ -314,163 +323,6 @@
 
                 </div>
 
-                <div class="row clearfix common-height">
-
-                    <div class="col-md-6 center col-padding" style="background: url('assets/images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
-                        <div>&nbsp;</div>
-                    </div>
-
-                    <div class="col-md-6 center col-padding" style="background-color: #F5F5F5;">
-                        <div>
-                            <div class="heading-block nobottomborder">
-                                <span class="before-heading color">Easily Understandable &amp; Customizable.</span>
-                                <h3>Walkthrough Videos &amp; Demos</h3>
-                            </div>
-
-                            <div class="center bottommargin">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/6Acv6xPXuzA" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <p class="lead nobottommargin">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row clearfix bottommargin-lg common-height">
-
-                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
-                        <div>
-                            <i class="i-plain i-xlarge divcenter icon-line2-directions"></i>
-                            <div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K</div>
-                            <h5>Lines of Codes</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
-                        <div>
-                            <i class="i-plain i-xlarge divcenter icon-line2-graph"></i>
-                            <div class="counter counter-lined"><span data-from="3000" data-to="21500" data-refresh-interval="100" data-speed="2500"></span></div>
-                            <h5>KBs of HTML Files</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
-                        <div>
-                            <i class="i-plain i-xlarge divcenter icon-line2-layers"></i>
-                            <div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500"></span></div>
-                            <h5>No. of Templates</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
-                        <div>
-                            <i class="i-plain i-xlarge divcenter icon-line2-clock"></i>
-                            <div class="counter counter-lined"><span data-from="60" data-to="1400" data-refresh-interval="30" data-speed="2700"></span></div>
-                            <h5>Hours of Coding</h5>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="container clearfix">
-
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-line-monitor"></i></a>
-                            </div>
-                            <h3>Responsive Layout</h3>
-                            <p>Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="200">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-line-eye"></i></a>
-                            </div>
-                            <h3>Retina Ready Graphics</h3>
-                            <p>Looks beautiful &amp; ultra-sharp on Retina Displays with Retina Icons, Fonts &amp; Images.</p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third col_last">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="400">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-line-star"></i></a>
-                            </div>
-                            <h3>Powerful Performance</h3>
-                            <p>Optimized code that are completely customizable and deliver unmatched fast performance.</p>
-                        </div>
-                    </div>
-
-                    <div class="clear"></div>
-
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-line-play"></i></a>
-                            </div>
-                            <h3>HTML5 Video</h3>
-                            <p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-params"></i></a>
-                            </div>
-                            <h3>Parallax Support</h3>
-                            <p>Display your Content attractively using Parallax Sections that have unlimited customizable areas.</p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third col_last">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="1000">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-line-circle-check"></i></a>
-                            </div>
-                            <h3>Endless Possibilities</h3>
-                            <p>Complete control on each &amp; every element that provides endless customization possibilities.</p>
-                        </div>
-                    </div>
-
-                    <div class="clear"></div>
-
-                    <div class="col_one_third bottommargin-sm">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-bulb"></i></a>
-                            </div>
-                            <h3>Light &amp; Dark Color Schemes</h3>
-                            <p>Change your Website's Primary Scheme instantly by simply adding the dark class to the body.</p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third bottommargin-sm">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-heart2"></i></a>
-                            </div>
-                            <h3>Boxed &amp; Wide Layouts</h3>
-                            <p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
-                        </div>
-                    </div>
-
-                    <div class="col_one_third bottommargin-sm col_last">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="1000">
-                            <div class="fbox-icon">
-                                <a href="#"><i class="icon-note"></i></a>
-                            </div>
-                            <h3>Extensive Documentation</h3>
-                            <p>We have covered each &amp; everything in our Documentation including Videos &amp; Screenshots.</p>
-                        </div>
-                    </div>
-
-                    <div class="clear"></div>
-
-                </div>
 
                 
 
@@ -549,10 +401,10 @@
                                         <a href="#"><img src="assets/images/testimonials/3.jpg" alt="Customer Testimonails"></a>
                                     </div>
                                     <div class="testi-content">
-                                        <p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
+                                        <p>“It isn’t a circus or a professional event. This is their tradition. They are proud of what they do, their culture and their heritage.”</p>
                                         <div class="testi-meta">
-                                            Steve Jobs
-                                            <span>Apple Inc.</span>
+                                            Craig Smith
+                                            <span>photographer</span>
                                         </div>
                                     </div>
                                 </div>
@@ -561,10 +413,9 @@
                                         <a href="#"><img src="assets/images/testimonials/2.jpg" alt="Customer Testimonails"></a>
                                     </div>
                                     <div class="testi-content">
-                                        <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
+                                        <p>“I still haven’t been to Mongolia. I want to ride a horse across the Mongolian steppes and try to imagine what it was like to be in Genghis Khan’s horde.”</p>
                                         <div class="testi-meta">
-                                            Collis Ta'eed
-                                            <span>Envato Inc.</span>
+                                            Bill clinton
                                         </div>
                                     </div>
                                 </div>
@@ -573,10 +424,9 @@
                                         <a href="#"><img src="assets/images/testimonials/1.jpg" alt="Customer Testimonails"></a>
                                     </div>
                                     <div class="testi-content">
-                                        <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+                                        <p> “No matter how much one reads about the tradition by which strangers are welcomed into a random ger, it is remarkable to experience.”</p>
                                         <div class="testi-meta">
-                                            John Doe
-                                            <span>XYZ Inc.</span>
+                                            Joe Rohde
                                         </div>
                                     </div>
                                 </div>
@@ -679,6 +529,42 @@
 
         </section><!-- #content end -->
 
+
+                <div class="row clearfix bottommargin-lg common-height">
+
+                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #515875;">
+                        <div>
+                            <i class="i-plain i-xlarge divcenter icon-line2-directions"></i>
+                            <div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K</div>
+                            <h5>Lines of Codes</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #576F9E;">
+                        <div>
+                            <i class="i-plain i-xlarge divcenter icon-line2-graph"></i>
+                            <div class="counter counter-lined"><span data-from="3000" data-to="21500" data-refresh-interval="100" data-speed="2500"></span></div>
+                            <h5>KBs of HTML Files</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #6697B9;">
+                        <div>
+                            <i class="i-plain i-xlarge divcenter icon-line2-layers"></i>
+                            <div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500"></span></div>
+                            <h5>No. of Templates</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 dark center col-padding" style="background-color: #88C3D8;">
+                        <div>
+                            <i class="i-plain i-xlarge divcenter icon-line2-clock"></i>
+                            <div class="counter counter-lined"><span data-from="60" data-to="1400" data-refresh-interval="30" data-speed="2700"></span></div>
+                            <h5>Hours of Coding</h5>
+                        </div>
+                    </div>
+
+                </div>
         <!-- Footer
         ============================================= -->
        @include('footer')
