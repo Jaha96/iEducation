@@ -130,52 +130,29 @@
         <section id="content">
 
             <div class="content-wrap">
-
-
-                <div class="section nobottommargin">
-                    <div class="container clear-bottommargin clearfix">
+            <div class="section nobottommargin">
+                    <div class="container clear-bottommargin clearfix style="background: rgba(0, 0, 0, 0.51);" style="padding-left:150px;padding-right: 150px;">
 
                         <div class="row topmargin-sm clearfix">
-
-                            <div class="col-md-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-screen-desktop inline-block" style="margin-bottom: 15px;"></i>
+                        <div class="col-md-12 bottommargin text-center">
                                 <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                                    <span class="before-heading">Scalable on Devices.</span>
-                                    <h4>Responsive &amp; Retina</h4>
+                                    <h4>Our Goals</h4>
                                 </div>
-                                <p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
+                                <p>Our sale purpose is to provide assistance information and cultural and guidance to 
+                                historical sites, museums and at venues of other significant interests. 
+                                We offer free basic Mongolian furthermore language video classes.</p>
                             </div>
-
-                            <div class="col-md-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-energy inline-block" style="margin-bottom: 15px;"></i>
-                                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                                    <span class="before-heading">Smartly Coded &amp; Maintained.</span>
-                                    <h4>Powerful Performance</h4>
-                                </div>
-                                <p>Medecins du Monde Jane Addams reduce child mortality challenges Ford Foundation. Diversification shifting landscape advocate pathway to a better life rights international. Assessment.</p>
-                            </div>
-
-                            <div class="col-md-4 bottommargin">
-                                <i class="i-plain color i-large icon-line2-equalizer inline-block" style="margin-bottom: 15px;"></i>
-                                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                                    <span class="before-heading">Flexible &amp; Customizable.</span>
-                                    <h4>Truly Multi-Purpose</h4>
-                                </div>
-                                <p>Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
-                            </div>
-
                         </div>
-
                     </div>
-                </div>
+            </div>
+
 
                 <div class="container clearfix">
 
                     <div class="row topmargin-lg bottommargin-sm">
 
                         <div class="heading-block center">
-                            <h2>LEARNING MONGOLIAN MADE EASY</h2>
-                            <span class="divcenter">Philanthropy convener livelihoods, initiative end hunger gender rights local. John Lennon storytelling; advocate, altruism impact catalyst.</span>
+                            <h2>10 great reasons to travel Mongolia</h2>
                         </div>
 
                         <div class="col-md-4 col-sm-6 bottommargin">
@@ -184,9 +161,25 @@
                                 <div class="fbox-icon">
                                     <a href="#"><i class="icon-line-heart"></i></a>
                                 </div>
-                                <h3>Boxed &amp; Wide Layouts</h3>
+                                <h3>1.MOST CAPTIVATING SUNRISES IN THE WORLD</h3>
                                 <p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
+                                <a href="#"  data-toggle="modal" data-target="#myModal1">See More</a>
                             </div>
+                        <!-- Modal -->
+            <div class="modal fade" id="myModal1" role="dialog">
+                <div class="modal-dialog">
+                <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            
+                            <img src="assets/images/reasons/1.jpg">
+                            <h5 style="padding-top: 20px">MOST CAPTIVATING SUNRISES (AND SUNSETS) IN THE WORLD</h5>
+                            <p>Haruki Murakami, best –selling Japanese author “Dawn in Mongolia was an amazing thing. In one instant, the horizon became a faint line suspended in the darkness, and then the line was drawn upward, higher and higher. It was as if a giant hand had stretched down from the sky and slowly lifted the curtain of night from the face of the earth. It was a magnificent sight, far greater in scale … than anything that I, with my limited human faculties, could fully comprehended”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
                             <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
                                 <div class="fbox-icon">
@@ -194,7 +187,24 @@
                                 </div>
                                 <h3>Extensive Documentation</h3>
                                 <p>We have covered each &amp; everything in our Docs including Videos &amp; Screenshots.</p>
+                                <a href="#"  data-toggle="modal" data-target="#myModal2">See More</a>
                             </div>
+
+                        <!-- Modal -->
+            <div class="modal fade" id="myModal2" role="dialog">
+                <div class="modal-dialog">
+                <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            
+                            <img src="assets/images/reasons/2.jpg">
+                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
+                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
                             <div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
                                 <div class="fbox-icon">
@@ -202,7 +212,22 @@
                                 </div>
                                 <h3>Parallax Support</h3>
                                 <p>Display your Content attractively using Parallax Sections with HTML5 Videos.</p>
+                                <a href="#"  data-toggle="modal" data-target="#myModal3">See More</a>
                             </div>
+                            <div class="modal fade" id="myModal3" role="dialog">
+                <div class="modal-dialog">
+                <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            
+                            <img src="assets/images/reasons/3.jpg">
+                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
+                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
                         </div>
 
@@ -218,7 +243,23 @@
                                 </div>
                                 <h3>HTML5 Video</h3>
                                 <p>Canvas provides support for Native HTML5 Videos that can be added to a Background.</p>
+                                <a href="#"  data-toggle="modal" data-target="#myModal4">See More</a>
                             </div>
+                             <!-- Modal -->
+            <div class="modal fade" id="myModal4" role="dialog">
+                <div class="modal-dialog">
+                <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            
+                            <img src="assets/images/reasons/4.jpg">
+                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
+                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
                             <div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
                                 <div class="fbox-icon">
@@ -226,15 +267,46 @@
                                 </div>
                                 <h3>Endless Possibilities</h3>
                                 <p>Complete control on each &amp; every element that provides endless customization.</p>
+                                <a href="#"  data-toggle="modal" data-target="#myModal5">See More</a>
                             </div>
-
+                                            <!-- Modal -->
+            <div class="modal fade" id="myModal5" role="dialog">
+                <div class="modal-dialog">
+                <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            
+                            <img src="assets/images/reasons/2.jpg">
+                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
+                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
                             <div class="feature-box topmargin" data-animate="fadeIn" data-delay="400">
                                 <div class="fbox-icon">
                                     <a href="#"><i class="icon-bulb"></i></a>
                                 </div>
                                 <h3>Light &amp; Dark Color Schemes</h3>
                                 <p>Change your Website's Primary Scheme instantly by simply adding the dark class.</p>
+                                <a href="#"  data-toggle="modal" data-target="#myModal5">See More</a>
                             </div>
+                                                      <!-- Modal -->
+            <div class="modal fade" id="myModal6" role="dialog">
+                <div class="modal-dialog">
+                <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            
+                            <img src="assets/images/reasons/2.jpg">
+                            <h5 style="padding-top: 20px">IT’S THE HOME OF LIVING NOMADIC CULTURE</h5>
+                            <p>Stanley Stewart, British author of “In the Empire of Genghis Khan:  A journey Among Nomads” “I waited half of a lifetime for Mongolia only to arrive fortuitously, at the moment I was best equipped to appreciate it. Any older, I might have found five months in the saddle too arduous. Any younger and I would not have taken such pleasure in those innocent landscapes, in the grasslands’ wonderful solitudes, or in the rich hospitality of nomads. Nor would I have understood Mongolia as a kind of homecoming.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
                         </div>
 
@@ -400,149 +472,9 @@
 
                 </div>
 
-                <div class="section topmargin nobottommargin nobottomborder">
-                    <div class="container clearfix">
-                        <div class="heading-block center nomargin">
-                            <h3>Our Latest Works</h3>
-                        </div>
-                    </div>
-                </div>
+                
 
-                <div id="portfolio" class="portfolio-nomargin portfolio-notitle portfolio-full clearfix">
-
-                    <article class="portfolio-item pf-media pf-icons">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="assets/images/portfolio/4/1.jpg" alt="Open Imagination">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="assets/images/portfolio/full/1.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single.html">Open Imagination</a></h3>
-                            <span><a href="#">Media</a>, <a href="#">Icons</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-illustrations">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="assets/images/portfolio/4/2.jpg" alt="Locked Steel Gate">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="assets/images/portfolio/full/2.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
-                            <span><a href="#">Illustrations</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-graphics pf-uielements">
-                        <div class="portfolio-image">
-                            <a href="#">
-                                <img src="assets/images/portfolio/4/3.jpg" alt="Mac Sunglasses">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="http://vimeo.com/89396394" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                <a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single-video.html">Mac Sunglasses</a></h3>
-                            <span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-icons pf-illustrations">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="assets/images/portfolio/4/4.jpg" alt="Open Imagination">
-                            </a>
-                            <div class="portfolio-overlay" data-lightbox="gallery">
-                                <a href="assets/images/portfolio/full/4.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                <a href="assets/images/portfolio/full/4-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
-                            <span><a href="#"><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-uielements pf-media">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="assets/images/portfolio/4/5.jpg" alt="Console Activity">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="assets/images/portfolio/full/5.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single.html">Console Activity</a></h3>
-                            <span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-graphics pf-illustrations">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="assets/images/portfolio/4/6.jpg" alt="Open Imagination">
-                            </a>
-                            <div class="portfolio-overlay" data-lightbox="gallery">
-                                <a href="assets/images/portfolio/full/6.jpg" class="left-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-                                <a href="assets/images/portfolio/full/6-1.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="assets/images/portfolio/full/6-2.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="assets/images/portfolio/full/6-3.jpg" class="hidden" data-lightbox="gallery-item"></a>
-                                <a href="portfolio-single-gallery.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
-                            <span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-uielements pf-icons">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single-video.html">
-                                <img src="assets/images/portfolio/4/7.jpg" alt="Backpack Contents">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="http://www.youtube.com/watch?v=kuceVNBTJio" class="left-icon" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-                                <a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single-video.html">Backpack Contents</a></h3>
-                            <span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-                        </div>
-                    </article>
-
-                    <article class="portfolio-item pf-graphics">
-                        <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="assets/images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
-                            </a>
-                            <div class="portfolio-overlay">
-                                <a href="assets/images/portfolio/full/8.jpg" class="left-icon" data-lightbox="image"><i class="icon-line-plus"></i></a>
-                                <a href="portfolio-single.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-desc">
-                            <h3><a href="portfolio-single.html">Sunset Bulb Glow</a></h3>
-                            <span><a href="#">Graphics</a></span>
-                        </div>
-                    </article>
-
-                </div>
+               
 
                 <script type="text/javascript">
 
@@ -740,164 +672,8 @@
                     </div>
                 </div>
 
-                <div class="section">
-                    <div class="container clearfix">
 
-                        <div class="row topmargin-sm">
-
-                            <div class="heading-block center">
-                                <h3>Meet Our Team</h3>
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 bottommargin">
-
-                                <div class="team">
-                                    <div class="team-image">
-                                        <img src="assets/images/team/3.jpg" alt="John Doe">
-                                    </div>
-                                    <div class="team-desc team-desc-bg">
-                                        <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                            <i class="icon-twitter"></i>
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                            <i class="icon-gplus"></i>
-                                            <i class="icon-gplus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 bottommargin">
-
-                                <div class="team">
-                                    <div class="team-image">
-                                        <img src="assets/images/team/2.jpg" alt="Josh Clark">
-                                    </div>
-                                    <div class="team-desc team-desc-bg">
-                                        <div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                            <i class="icon-twitter"></i>
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                            <i class="icon-gplus"></i>
-                                            <i class="icon-gplus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 bottommargin">
-
-                                <div class="team">
-                                    <div class="team-image">
-                                        <img src="assets/images/team/8.jpg" alt="Mary Jane">
-                                    </div>
-                                    <div class="team-desc team-desc-bg">
-                                        <div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                            <i class="icon-twitter"></i>
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                            <i class="icon-gplus"></i>
-                                            <i class="icon-gplus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="col-md-3 col-sm-6 bottommargin">
-
-                                <div class="team">
-                                    <div class="team-image">
-                                        <img src="assets/images/team/4.jpg" alt="Nix Maxwell">
-                                    </div>
-                                    <div class="team-desc team-desc-bg">
-                                        <div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                                            <i class="icon-twitter"></i>
-                                            <i class="icon-twitter"></i>
-                                        </a>
-                                        <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-                                            <i class="icon-gplus"></i>
-                                            <i class="icon-gplus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="container clearfix">
-
-                    <div id="oc-clients" class="owl-carousel image-carousel">
-
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/1.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/2.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/3.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/4.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/5.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/6.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/7.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/8.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/9.png" alt="Clients"></a></div>
-                        <div class="oc-item"><a href="#"><img src="assets/images/clients/10.png" alt="Clients"></a></div>
-
-                    </div>
-
-                    <script type="text/javascript">
-
-                        jQuery(document).ready(function($) {
-
-                            var ocClients = $("#oc-clients");
-
-                            ocClients.owlCarousel({
-                                margin: 60,
-                                loop: true,
-                                nav: false,
-                                autoplay: true,
-                                dots: false,
-                                autoplayHoverPause: true,
-                                responsive:{
-                                    0:{ items:2 },
-                                    480:{ items:3 },
-                                    768:{ items:4 },
-                                    992:{ items:5 },
-                                    1200:{ items:6 }
-                                }
-                            });
-
-                        });
-
-                    </script>
-
-                </div>
+                
 
             </div>
 

@@ -825,7 +825,7 @@ html[xmlns] .slider-wrap {display: block;}
 #header .container { position: relative; }
 
 #header.transparent-header {
-	background: transparent;
+	background: rgba(0, 0, 0, 0.51);
 	border-bottom: none;
 	z-index: 199;
 }
