@@ -21,16 +21,20 @@
                             <li class="current"><a href="/"><div>Home</div></a>
                                 
                             </li>
+
                             <li><a href="/jobs"><div>Informations</div></a>
+
+                            <li class="current"><a href="iEducation/public/general"><div>Informations</div></a>
+
                                 <ul>
-                                    <li><a href="#"><div><i class="icon-stack"></i>General Information</div></a>
+                                    <li><a href="/general"><div><i class="icon-stack"></i>General Information</div></a>
                                         
                                     </li>
                                     <li><a href="#"><div><i class="icon-gift"></i>Aimags</div></a>
                                     <ul>
                                         <li>Arkhangai</li>
-                                        <li>Arkhangai</li>
-                                        <li>Arkhangai</li>
+                                        <li>Bayankhongor</li>
+                                        <li>OvorKhangai</li>
                                         <li>Arkhangai</li>
                                         <li>Arkhangai</li>
                                         <li>Arkhangai</li>
@@ -85,40 +89,16 @@
                         
                             <li><a href="shop.html"><div>More</div></a>
                                 <ul>
-                                    <li><a href="shop.html"><div>4 Columns</div></a></li>
-                                    <li><a href="shop-3.html"><div>3 Columns</div></a>
-                                        <ul>
-                                            <li><a href="shop-3.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-3-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-3-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                        </ul>
+                                    <li><a href="#"><div><i class="icon-stack"></i>Police Station</div></a>
+                                        
                                     </li>
-                                    <li><a href="shop-2.html"><div>2 Columns</div></a>
-                                        <ul>
-                                            <li><a href="shop-2-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-2-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-2-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
+                                    <li><a href="#"><div><i class="icon-gift"></i>Emergency</div></a>
+                                        
                                     </li>
-                                    <li><a href="shop-1.html"><div>1 Columns</div></a>
-                                        <ul>
-                                            <li><a href="shop-1.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-1-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-1-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-1-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
+                                    <li><a href="#"><div><i class="icon-umbrella"></i>Reading</div></a>
+                                       
                                     </li>
-                                    <li><a href="shop-category-parallax.html"><div>Categories - Parallax</div></a></li>
-                                    <li><a href="shop-single.html"><div>Single Product</div></a>
-                                        <ul>
-                                            <li><a href="shop-single.html"><div>Full Width</div></a></li>
-                                            <li><a href="shop-single-right-sidebar.html"><div>Right Sidebar</div></a></li>
-                                            <li><a href="shop-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
-                                            <li><a href="shop-single-both-sidebar.html"><div>Both Sidebar</div></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="cart.html"><div>Cart</div></a></li>
-                                    <li><a href="checkout.html"><div>Checkout</div></a></li>
+                                   
                                 </ul>
                             </li>
                             
