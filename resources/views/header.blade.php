@@ -21,24 +21,37 @@
                             <li class="current"><a href="/"><div>Home</div></a>
                                 
                             </li>
-                            <li class="current"><a href="/jobs"><div>► First time? Start Here</div></a>
+                            <li class="current"><a href="/jobs"><div>Informations</div></a>
                                 
                             </li>
 
-                            <li class="current"><a href="/jobs"><div>Introduction</div></a>
+                             <li><a href="#"><div>Education</div></a>
                                 <ul>
-                                    <li><a href="#"><div><i class="icon-stack"></i>Mongolia</div></a>
+                                    <li><a href="#"><div><i class="icon-stack"></i>Video</div></a>
                                         
                                     </li>
-                                    <li><a href="#"><div><i class="icon-gift"></i>City</div></a>
+                                    <li><a href="#"><div><i class="icon-gift"></i>Audio</div></a>
                                         
                                     </li>
-                                    <li><a href="#"><div><i class="icon-umbrella"></i>Province</div></a>
+                                    <li><a href="#"><div><i class="icon-umbrella"></i>Reading</div></a>
                                        
                                     </li>
-                                    <li><a href="#"><div><i class="icon-umbrella"></i>10 reasons why you should go to Mongolia</div></a>
+                                   
+                                </ul>
+                            </li>
+
+                            <li class="current"><a href="/jobs"><div>Attractions</div></a>
+                                <ul>
+                                    <li><a href="#"><div><i class="icon-stack"></i>Venues/ UB night life</div></a>
+                                        
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-gift"></i>Venues / Coffee shop</div></a>
+                                        
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-umbrella"></i>Best galliries and Museums</div></a>
                                        
                                     </li>
+                    
                                    
                                 </ul>
                             </li>
