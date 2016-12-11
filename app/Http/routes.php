@@ -14,9 +14,16 @@
 Route::get('/', 'PassportController@index');
 Route::get('jobs',['as'=>'jobs','uses'=>'PassportController@jobs']);
 
+Route::get('video',function(){
+    return view('video');
+});
 Route::get('general',['as'=>'general','uses'=>'PassportController@gene']);
 
 
+
+Route::get('greating-lvl',function(){
+    return view('greating-lvl');
+});
 
 
 Route::get('go/login', ['as' => 'login', 'uses' => 'AuthController@index']);
