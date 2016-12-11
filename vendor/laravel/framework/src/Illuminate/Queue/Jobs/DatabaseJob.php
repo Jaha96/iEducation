@@ -37,6 +37,7 @@ class DatabaseJob extends Job implements JobContract
         $this->queue = $queue;
         $this->database = $database;
         $this->container = $container;
+        $this->job->attempts = $this->job->attempts + 1;
     }
 
     /**

@@ -2,7 +2,6 @@
 
 namespace Illuminate\Session;
 
-use Carbon\Carbon;
 use SessionHandlerInterface;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Database\ConnectionInterface;
@@ -24,13 +23,6 @@ class DatabaseSessionHandler implements SessionHandlerInterface, ExistenceAwareI
      */
     protected $table;
 
-    /*
-     * The number of minutes the session should be valid.
-     *
-     * @var int
-     */
-    protected $minutes;
-
     /**
      * The container instance.
      *
@@ -50,14 +42,12 @@ class DatabaseSessionHandler implements SessionHandlerInterface, ExistenceAwareI
      *
      * @param  \Illuminate\Database\ConnectionInterface  $connection
      * @param  string  $table
-     * @param  string  $minutes
      * @param  \Illuminate\Contracts\Container\Container|null  $container
      * @return void
      */
-    public function __construct(ConnectionInterface $connection, $table, $minutes, Container $container = null)
+    public function __construct(ConnectionInterface $connection, $table, Container $container = null)
     {
         $this->table = $table;
-        $this->minutes = $minutes;
         $this->container = $container;
         $this->connection = $connection;
     }
@@ -84,14 +74,6 @@ class DatabaseSessionHandler implements SessionHandlerInterface, ExistenceAwareI
     public function read($sessionId)
     {
         $session = (object) $this->getQuery()->find($sessionId);
-
-        if (isset($session->last_activity)) {
-            if ($session->last_activity < Carbon::now()->subMinutes($this->minutes)->getTimestamp()) {
-                $this->exists = true;
-
-                return;
-            }
-        }
 
         if (isset($session->payload)) {
             $this->exists = true;

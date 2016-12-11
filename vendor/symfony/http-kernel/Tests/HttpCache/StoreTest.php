@@ -19,10 +19,6 @@ class StoreTest extends \PHPUnit_Framework_TestCase
 {
     protected $request;
     protected $response;
-
-    /**
-     * @var Store
-     */
     protected $store;
 
     protected function setUp()

@@ -2,31 +2,34 @@
 
 namespace Illuminate\Foundation\Auth\Access;
 
+use Illuminate\Routing\ControllerMiddlewareOptions;
+
 trait AuthorizesResources
 {
     /**
      * Authorize a resource action based on the incoming request.
      *
      * @param  string  $model
-     * @param  string|null  $parameter
+     * @param  string|null  $name
      * @param  array  $options
-     * @return void
+     * @param  \Illuminate\Http\Request|null  $request
+     * @return \Illuminate\Routing\ControllerMiddlewareOptions
      */
-    public function authorizeResource($model, $parameter = null, array $options = [])
+    public function authorizeResource($model, $name = null, array $options = [], $request = null)
     {
-        $parameter = $parameter ?: strtolower(class_basename($model));
+        $method = array_last(explode('@', with($request ?: request())->route()->getActionName()));
 
-        $middleware = [];
+        $map = $this->resourceAbilityMap();
 
-        foreach ($this->resourceAbilityMap() as $method => $ability) {
-            $modelName = in_array($method, ['index', 'create', 'store']) ? $model : $parameter;
-
-            $middleware["can:{$ability},{$modelName}"][] = $method;
+        if (! in_array($method, array_keys($map))) {
+            return new ControllerMiddlewareOptions($options);
         }
 
-        foreach ($middleware as $middlewareName => $methods) {
-            $this->middleware($middlewareName, $options)->only($methods);
+        if (! in_array($method, ['index', 'create', 'store'])) {
+            $model = $name ?: strtolower(class_basename($model));
         }
+
+        return $this->middleware("can:{$map[$method]},{$model}", $options);
     }
 
     /**
@@ -37,13 +40,13 @@ trait AuthorizesResources
     protected function resourceAbilityMap()
     {
         return [
-            'index' => 'view',
+            'index'  => 'view',
             'create' => 'create',
-            'store' => 'create',
-            'show' => 'view',
-            'edit' => 'update',
+            'store'  => 'create',
+            'show'   => 'view',
+            'edit'   => 'update',
             'update' => 'update',
-            'destroy' => 'delete',
+            'delete' => 'delete',
         ];
     }
 }

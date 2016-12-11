@@ -148,6 +148,8 @@ class Mailer implements MailerContract, MailQueueContract
      */
     public function send($view, array $data, $callback)
     {
+        $this->forceReconnection();
+
         // First we need to parse the view, which could either be a string or an array
         // containing both an HTML and plain text versions of the view which should
         // be used when sending an e-mail. We will extract both of them out here.
@@ -381,11 +383,7 @@ class Mailer implements MailerContract, MailQueueContract
             $this->events->fire(new Events\MessageSending($message));
         }
 
-        try {
-            return $this->swift->send($message, $this->failedRecipients);
-        } finally {
-            $this->swift->getTransport()->stop();
-        }
+        return $this->swift->send($message, $this->failedRecipients);
     }
 
     /**

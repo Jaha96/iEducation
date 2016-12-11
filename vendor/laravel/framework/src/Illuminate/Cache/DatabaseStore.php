@@ -128,7 +128,7 @@ class DatabaseStore implements Store
     }
 
     /**
-     * Decrement the value of an item in the cache.
+     * Increment the value of an item in the cache.
      *
      * @param  string  $key
      * @param  mixed   $value
@@ -165,7 +165,7 @@ class DatabaseStore implements Store
             }
 
             $current = $this->encrypter->decrypt($cache->value);
-            $new = $callback((int) $current, $value);
+            $new = $callback($current, $value);
 
             if (! is_numeric($current)) {
                 return false;

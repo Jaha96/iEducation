@@ -71,9 +71,9 @@ class DateTimeComparator extends ObjectComparator
      * @param  \DateTimeInterface $datetime
      * @return string
      */
-    private function dateTimeToString($datetime)
+    protected function dateTimeToString($datetime)
     {
-        $string = $datetime->format('Y-m-d\TH:i:s.uO');
+        $string = $datetime->format(\DateTime::ISO8601);
 
         return $string ? $string : 'Invalid DateTimeInterface object';
     }

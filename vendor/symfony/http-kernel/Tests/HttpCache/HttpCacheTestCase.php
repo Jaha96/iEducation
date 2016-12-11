@@ -50,9 +50,6 @@ class HttpCacheTestCase extends \PHPUnit_Framework_TestCase
 
     protected function tearDown()
     {
-        if ($this->cache) {
-            $this->cache->getStore()->cleanup();
-        }
         $this->kernel = null;
         $this->cache = null;
         $this->caches = null;

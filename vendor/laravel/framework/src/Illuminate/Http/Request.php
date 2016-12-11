@@ -271,7 +271,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
         $input = $this->all();
 
         foreach ($keys as $value) {
-            if (! Arr::has($input, $value)) {
+            if (! array_key_exists($value, $input)) {
                 return false;
             }
         }
@@ -338,7 +338,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
     }
 
     /**
-     * Get a subset containing the provided keys with values from the input data.
+     * Get a subset of the items from the input data.
      *
      * @param  array|mixed  $keys
      * @return array
@@ -383,7 +383,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
      */
     public function intersect($keys)
     {
-        return array_filter($this->only(is_array($keys) ? $keys : func_get_args()));
+        return array_filter($this->only($keys));
     }
 
     /**
@@ -459,7 +459,7 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
      *
      * @param  string  $key
      * @param  mixed  $default
-     * @return \Illuminate\Http\UploadedFile|array|null
+     * @return \Symfony\Component\HttpFoundation\File\UploadedFile|array|null
      */
     public function file($key = null, $default = null)
     {

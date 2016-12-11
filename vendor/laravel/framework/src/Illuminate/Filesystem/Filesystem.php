@@ -51,16 +51,14 @@ class Filesystem
     {
         $contents = '';
 
-        $handle = fopen($path, 'rb');
+        $handle = fopen($path, 'r');
 
         if ($handle) {
             try {
                 if (flock($handle, LOCK_SH)) {
-                    clearstatcache(true, $path);
-
-                    $contents = fread($handle, $this->size($path) ?: 1);
-
-                    flock($handle, LOCK_UN);
+                    while (! feof($handle)) {
+                        $contents .= fread($handle, 1048576);
+                    }
                 }
             } finally {
                 fclose($handle);
@@ -347,12 +345,11 @@ class Filesystem
      * Get all of the files from the given directory (recursive).
      *
      * @param  string  $directory
-     * @param  bool  $hidden
      * @return array
      */
-    public function allFiles($directory, $hidden = false)
+    public function allFiles($directory)
     {
-        return iterator_to_array(Finder::create()->files()->ignoreDotFiles(! $hidden)->in($directory), false);
+        return iterator_to_array(Finder::create()->files()->in($directory), false);
     }
 
     /**
@@ -388,25 +385,6 @@ class Filesystem
         }
 
         return mkdir($path, $mode, $recursive);
-    }
-
-    /**
-     * Move a directory.
-     *
-     * @param  string  $from
-     * @param  string  $to
-     * @param  bool  $overwrite
-     * @return bool
-     */
-    public function moveDirectory($from, $to, $overwrite = false)
-    {
-        if ($overwrite && $this->isDirectory($to)) {
-            if (! $this->deleteDirectory($to)) {
-                return false;
-            }
-        }
-
-        return @rename($from, $to) === true;
     }
 
     /**

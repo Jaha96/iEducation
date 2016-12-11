@@ -154,8 +154,6 @@ class HttpCache implements HttpKernelInterface, TerminableInterface
      * Gets the Surrogate instance.
      *
      * @return SurrogateInterface A Surrogate instance
-     *
-     * @throws \LogicException
      */
     public function getSurrogate()
     {
@@ -580,9 +578,6 @@ class HttpCache implements HttpKernelInterface, TerminableInterface
      */
     protected function store(Request $request, Response $response)
     {
-        if (!$response->headers->has('Date')) {
-            $response->setDate(\DateTime::createFromFormat('U', time()));
-        }
         try {
             $this->store->write($request, $response);
 

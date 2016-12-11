@@ -18,7 +18,6 @@ class Decoder extends \Intervention\Image\AbstractDecoder
 
         try {
 
-            $core->setBackgroundColor(new \ImagickPixel('transparent'));
             $core->readImage($path);
             $core->setImageType(\Imagick::IMGTYPE_TRUECOLORMATTE);
 

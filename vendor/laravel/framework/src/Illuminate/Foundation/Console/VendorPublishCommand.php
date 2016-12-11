@@ -58,7 +58,7 @@ class VendorPublishCommand extends Command
 
         $tags = $tags ?: [null];
 
-        foreach ((array) $tags as $tag) {
+        foreach ($tags as $tag) {
             $this->publishTag($tag);
         }
     }

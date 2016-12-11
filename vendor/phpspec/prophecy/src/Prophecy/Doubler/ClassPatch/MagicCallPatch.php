@@ -11,27 +11,17 @@
 
 namespace Prophecy\Doubler\ClassPatch;
 
+use phpDocumentor\Reflection\DocBlock;
 use Prophecy\Doubler\Generator\Node\ClassNode;
 use Prophecy\Doubler\Generator\Node\MethodNode;
-use Prophecy\PhpDocumentor\ClassAndInterfaceTagRetriever;
-use Prophecy\PhpDocumentor\MethodTagRetrieverInterface;
 
 /**
  * Discover Magical API using "@method" PHPDoc format.
  *
  * @author Thomas Tourlourat <thomas@tourlourat.com>
- * @author Kévin Dunglas <dunglas@gmail.com>
- * @author Théo FIDRY <theo.fidry@gmail.com>
  */
 class MagicCallPatch implements ClassPatchInterface
 {
-    private $tagRetriever;
-
-    public function __construct(MethodTagRetrieverInterface $tagRetriever = null)
-    {
-        $this->tagRetriever = null === $tagRetriever ? new ClassAndInterfaceTagRetriever() : $tagRetriever;
-    }
-
     /**
      * Support any class
      *
@@ -51,27 +41,27 @@ class MagicCallPatch implements ClassPatchInterface
      */
     public function apply(ClassNode $node)
     {
-        $types = array_filter($node->getInterfaces(), function ($interface) {
-            return 0 !== strpos($interface, 'Prophecy\\');
-        });
-        $types[] = $node->getParentClass();
+        $parentClass = $node->getParentClass();
+        $reflectionClass = new \ReflectionClass($parentClass);
 
-        foreach ($types as $type) {
-            $reflectionClass = new \ReflectionClass($type);
-            $tagList = $this->tagRetriever->getTagList($reflectionClass);
+        $phpdoc = new DocBlock($reflectionClass->getDocComment());
 
-            foreach($tagList as $tag) {
-                $methodName = $tag->getMethodName();
+        $tagList = $phpdoc->getTagsByName('method');
 
-                if (empty($methodName)) {
-                    continue;
-                }
+        $interfaces = $reflectionClass->getInterfaces();
+        foreach($interfaces as $interface) {
+            $phpdoc = new DocBlock($interface);
+            $tagList = array_merge($tagList, $phpdoc->getTagsByName('method'));
+        }
 
-                if (!$reflectionClass->hasMethod($methodName)) {
-                    $methodNode = new MethodNode($methodName);
-                    $methodNode->setStatic($tag->isStatic());
-                    $node->addMethod($methodNode);
-                }
+        foreach($tagList as $tag) {
+            $methodName = $tag->getMethodName();
+
+            if (!$reflectionClass->hasMethod($methodName)) {
+                $methodNode = new MethodNode($tag->getMethodName());
+                $methodNode->setStatic($tag->isStatic());
+
+                $node->addMethod($methodNode);
             }
         }
     }

@@ -5,7 +5,7 @@ namespace Illuminate\Cache\Events;
 class CacheMissed
 {
     /**
-     * The key that was missed.
+     * THe key that was missed.
      *
      * @var string
      */

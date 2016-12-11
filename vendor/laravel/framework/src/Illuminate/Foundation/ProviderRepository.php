@@ -171,9 +171,7 @@ class ProviderRepository
         if ($this->files->exists($this->manifestPath)) {
             $manifest = $this->files->getRequire($this->manifestPath);
 
-            if ($manifest) {
-                return array_merge(['when' => []], $manifest);
-            }
+            return array_merge(['when' => []], $manifest);
         }
     }
 

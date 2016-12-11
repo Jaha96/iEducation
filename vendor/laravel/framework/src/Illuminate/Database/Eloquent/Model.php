@@ -57,13 +57,6 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
     protected $primaryKey = 'id';
 
     /**
-     * The "type" of the auto-incrementing ID.
-     *
-     * @var string
-     */
-    protected $keyType = 'int';
-
-    /**
      * The number of models to return for pagination.
      *
      * @var int
@@ -388,11 +381,15 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
      */
     public static function getGlobalScope($scope)
     {
-        if (! is_string($scope)) {
-            $scope = get_class($scope);
+        $modelScopes = Arr::get(static::$globalScopes, static::class, []);
+
+        if (is_string($scope)) {
+            return isset($modelScopes[$scope]) ? $modelScopes[$scope] : null;
         }
 
-        return Arr::get(static::$globalScopes, static::class.'.'.$scope);
+        return Arr::first($modelScopes, function ($key, $value) use ($scope) {
+            return $scope instanceof $value;
+        });
     }
 
     /**
@@ -521,7 +518,7 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
 
         $model->setRawAttributes((array) $attributes, true);
 
-        $model->setConnection($connection ?: $this->getConnectionName());
+        $model->setConnection($connection ?: $this->connection);
 
         return $model;
     }
@@ -659,10 +656,6 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
     {
         if (! $this->exists) {
             return;
-        }
-
-        if (is_string($with)) {
-            $with = func_get_args();
         }
 
         $key = $this->getKeyName();
@@ -828,11 +821,11 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
         list($type, $id) = $this->getMorphs($name, $type, $id);
 
         // If the type value is null it is probably safe to assume we're eager loading
-        // the relationship. In this case we'll just pass in a dummy query where we
-        // need to remove any eager loads that may already be defined on a model.
-        if (empty($class = $this->$type)) {
+        // the relationship. When that is the case we will pass in a dummy query as
+        // there are multiple types in the morph and we can't use single queries.
+        if (is_null($class = $this->$type)) {
             return new MorphTo(
-                $this->newQuery()->setEagerLoads([]), $this, $id, null, $type, $name
+                $this->newQuery(), $this, $id, null, $type, $name
             );
         }
 
@@ -2133,27 +2126,6 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
     {
         $this->hidden = array_diff($this->hidden, (array) $attributes);
 
-        if (! empty($this->visible)) {
-            $this->addVisible($attributes);
-        }
-
-        return $this;
-    }
-
-    /**
-     * Make the given, typically visible, attributes hidden.
-     *
-     * @param  array|string  $attributes
-     * @return $this
-     */
-    public function makeHidden($attributes)
-    {
-        $attributes = (array) $attributes;
-
-        $this->visible = array_diff($this->visible, $attributes);
-
-        $this->hidden = array_unique(array_merge($this->hidden, $attributes));
-
         return $this;
     }
 
@@ -2612,14 +2584,10 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
     protected function getArrayableItems(array $values)
     {
         if (count($this->getVisible()) > 0) {
-            $values = array_intersect_key($values, array_flip($this->getVisible()));
+            return array_intersect_key($values, array_flip($this->getVisible()));
         }
 
-        if (count($this->getHidden()) > 0) {
-            $values = array_diff_key($values, array_flip($this->getHidden()));
-        }
-
-        return $values;
+        return array_diff_key($values, array_flip($this->getHidden()));
     }
 
     /**
@@ -2791,7 +2759,7 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
     {
         if ($this->getIncrementing()) {
             return array_merge([
-                $this->getKeyName() => $this->keyType,
+                $this->getKeyName() => 'int',
             ], $this->casts);
         }
 
@@ -3066,13 +3034,11 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
      */
     public function replicate(array $except = null)
     {
-        $defaults = [
+        $except = $except ?: [
             $this->getKeyName(),
             $this->getCreatedAtColumn(),
             $this->getUpdatedAtColumn(),
         ];
-
-        $except = $except ? array_unique(array_merge($except, $defaults)) : $defaults;
 
         $attributes = Arr::except($this->attributes, $except);
 
@@ -3487,14 +3453,15 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
     }
 
     /**
-     * Determine if an attribute or relation exists on the model.
+     * Determine if an attribute exists on the model.
      *
      * @param  string  $key
      * @return bool
      */
     public function __isset($key)
     {
-        return ! is_null($this->getAttribute($key));
+        return (isset($this->attributes[$key]) || isset($this->relations[$key])) ||
+                ($this->hasGetMutator($key) && ! is_null($this->getAttributeValue($key)));
     }
 
     /**

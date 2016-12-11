@@ -10,16 +10,16 @@
 
 namespace Barryvdh\LaravelIdeHelper;
 
-use Barryvdh\Reflection\DocBlock;
-use Barryvdh\Reflection\DocBlock\Context;
-use Barryvdh\Reflection\DocBlock\Tag;
-use Barryvdh\Reflection\DocBlock\Tag\ReturnTag;
-use Barryvdh\Reflection\DocBlock\Tag\ParamTag;
-use Barryvdh\Reflection\DocBlock\Serializer as DocBlockSerializer;
+use phpDocumentor\Reflection\DocBlock;
+use phpDocumentor\Reflection\DocBlock\Context;
+use phpDocumentor\Reflection\DocBlock\Tag;
+use phpDocumentor\Reflection\DocBlock\Tag\ReturnTag;
+use phpDocumentor\Reflection\DocBlock\Tag\ParamTag;
+use phpDocumentor\Reflection\DocBlock\Serializer as DocBlockSerializer;
 
 class Method
 {
-    /** @var \Barryvdh\Reflection\DocBlock  */
+    /** @var \phpDocumentor\Reflection\DocBlock  */
     protected $phpdoc;
 
     /** @var \ReflectionMethod  */
@@ -36,7 +36,7 @@ class Method
     /**
      * @param \ReflectionMethod $method
      * @param string $alias
-     * @param \ReflectionClass $class
+     * @param string $class
      * @param string|null $methodName
      * @param array $interfaces
      */
@@ -55,8 +55,7 @@ class Method
             $this->normalizeParams($this->phpdoc);
             $this->normalizeReturn($this->phpdoc);
             $this->normalizeDescription($this->phpdoc);
-        } catch (\Exception $e) {
-        }
+        } catch (\Exception $e) {}
 
         //Get the parameters, including formatted default values
         $this->getParameters($method);
@@ -178,7 +177,7 @@ class Method
         $paramTags = $phpdoc->getTagsByName('param');
         if ($paramTags) {
             /** @var ParamTag $tag */
-            foreach ($paramTags as $tag) {
+            foreach($paramTags as $tag){
                 // Convert the keywords
                 $content = $this->convertKeywords($tag->getContent());
                 $tag->setContent($content);
@@ -206,14 +205,14 @@ class Method
             $returnValue = $tag->getType();
 
             // Replace the interfaces
-            foreach ($this->interfaces as $interface => $real) {
+            foreach($this->interfaces as $interface => $real){
                 $returnValue = str_replace($interface, $real, $returnValue);
             }
 
             // Set the changed content
             $tag->setContent($returnValue . ' ' . $tag->getDescription());
             $this->return = $returnValue;
-        } else {
+        }else{
             $this->return = null;
         }
     }
@@ -240,7 +239,7 @@ class Method
      */
     public function shouldReturn()
     {
-        if ($this->return !== "void" && $this->method->name !== "__construct") {
+        if($this->return !== "void" && $this->method->name !== "__construct"){
             return true;
         }
 
@@ -250,7 +249,7 @@ class Method
     /**
      * Get the parameters and format them correctly
      *
-     * @param  \ReflectionMethod $method
+     * @param $method
      * @return array
      */
     public function getParameters($method)

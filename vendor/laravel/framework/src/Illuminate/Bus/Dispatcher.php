@@ -9,8 +9,9 @@ use Illuminate\Contracts\Queue\Queue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Contracts\Bus\QueueingDispatcher;
+use Illuminate\Contracts\Bus\Dispatcher as DispatcherContract;
 
-class Dispatcher implements QueueingDispatcher
+class Dispatcher implements DispatcherContract, QueueingDispatcher
 {
     /**
      * The container implementation.

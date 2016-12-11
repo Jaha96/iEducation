@@ -23,10 +23,6 @@ use Mockery\Adapter\Phpunit\MockeryTestCase;
 
 class Mockery_MockTest extends MockeryTestCase
 {
-    /**
-     * @var \Mockery\Container
-     */
-    public $container;
 
     public function setup()
     {
@@ -94,13 +90,6 @@ class Mockery_MockTest extends MockeryTestCase
     {
         $mock = $this->container->mock('ClassWithNoToString')->shouldIgnoreMissing();
         assertThat(nullValue($mock->nonExistingMethod()));
-    }
-
-    public function testShouldIgnoreDebugInfo()
-    {
-        $mock = $this->container->mock('ClassWithDebugInfo');
-
-        $mock->__debugInfo();
     }
 
     /**
@@ -181,13 +170,5 @@ class ClassWithMethods
     public function bar()
     {
         return 'bar';
-    }
-}
-
-class ClassWithDebugInfo
-{
-    public function __debugInfo()
-    {
-        return array('test' => 'test');
     }
 }

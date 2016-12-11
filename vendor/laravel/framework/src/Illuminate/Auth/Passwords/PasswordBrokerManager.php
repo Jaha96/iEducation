@@ -89,10 +89,8 @@ class PasswordBrokerManager implements FactoryContract
             $key = base64_decode(substr($key, 7));
         }
 
-        $connection = isset($config['connection']) ? $config['connection'] : null;
-
         return new DatabaseTokenRepository(
-            $this->app['db']->connection($connection),
+            $this->app['db']->connection(),
             $config['table'],
             $key,
             $config['expire']

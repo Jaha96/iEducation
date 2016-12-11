@@ -925,8 +925,7 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
 
                 $reflector = new ReflectionClass($this->expectedException);
 
-                if ($this->expectedException === 'PHPUnit_Framework_Exception' ||
-                    $this->expectedException === '\PHPUnit_Framework_Exception' ||
+                if ($this->expectedException == 'PHPUnit_Framework_Exception' ||
                     $reflector->isSubclassOf('PHPUnit_Framework_Exception')) {
                     $checkException = true;
                 }
@@ -1325,7 +1324,6 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
      * @param bool       $callAutoload            Can be used to disable __autoload() during the generation of the test double class.
      * @param bool       $cloneArguments
      * @param bool       $callOriginalMethods
-     * @param object     $proxyTarget
      *
      * @return PHPUnit_Framework_MockObject_MockObject
      *
@@ -1333,7 +1331,7 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
      *
      * @since  Method available since Release 3.0.0
      */
-    public function getMock($originalClassName, $methods = array(), array $arguments = array(), $mockClassName = '', $callOriginalConstructor = true, $callOriginalClone = true, $callAutoload = true, $cloneArguments = false, $callOriginalMethods = false, $proxyTarget = null)
+    public function getMock($originalClassName, $methods = array(), array $arguments = array(), $mockClassName = '', $callOriginalConstructor = true, $callOriginalClone = true, $callAutoload = true, $cloneArguments = false, $callOriginalMethods = false)
     {
         $mockObject = $this->getMockObjectGenerator()->getMock(
             $originalClassName,
@@ -1344,8 +1342,7 @@ abstract class PHPUnit_Framework_TestCase extends PHPUnit_Framework_Assert imple
             $callOriginalClone,
             $callAutoload,
             $cloneArguments,
-            $callOriginalMethods,
-            $proxyTarget
+            $callOriginalMethods
         );
 
         $this->mockObjects[] = $mockObject;

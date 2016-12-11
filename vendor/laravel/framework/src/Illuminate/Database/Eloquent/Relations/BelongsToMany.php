@@ -47,18 +47,11 @@ class BelongsToMany extends Relation
     protected $pivotColumns = [];
 
     /**
-     * Any pivot table restrictions for where clauses.
+     * Any pivot table restrictions.
      *
      * @var array
      */
     protected $pivotWheres = [];
-
-    /**
-     * Any pivot table restrictions for whereIn clauses.
-     *
-     * @var array
-     */
-    protected $pivotWhereIns = [];
 
     /**
      * The custom pivot table column for the created_at timestamp.
@@ -73,13 +66,6 @@ class BelongsToMany extends Relation
      * @var string
      */
     protected $pivotUpdatedAt;
-
-    /**
-     * The count of self joins.
-     *
-     * @var int
-     */
-    protected static $selfJoinCount = 0;
 
     /**
      * Create a new belongs to many relationship instance.
@@ -139,7 +125,7 @@ class BelongsToMany extends Relation
      */
     public function wherePivotIn($column, $values, $boolean = 'and', $not = false)
     {
-        $this->pivotWhereIns[] = func_get_args();
+        $this->pivotWheres[] = func_get_args();
 
         return $this->whereIn($this->table.'.'.$column, $values, $boolean, $not);
     }
@@ -196,7 +182,7 @@ class BelongsToMany extends Relation
             return $model;
         }
 
-        throw (new ModelNotFoundException)->setModel(get_class($this->parent));
+        throw new ModelNotFoundException;
     }
 
     /**
@@ -390,7 +376,7 @@ class BelongsToMany extends Relation
      */
     public function getRelationCountHash()
     {
-        return 'laravel_reserved_'.static::$selfJoinCount++;
+        return 'self_'.md5(microtime(true));
     }
 
     /**
@@ -796,17 +782,6 @@ class BelongsToMany extends Relation
     }
 
     /**
-     * Sync the intermediate tables with a list of IDs without detaching.
-     *
-     * @param  \Illuminate\Database\Eloquent\Collection|array  $ids
-     * @return array
-     */
-    public function syncWithoutDetaching($ids)
-    {
-        return $this->sync($ids, false);
-    }
-
-    /**
      * Sync the intermediate tables with a list of IDs or collection of models.
      *
      * @param  \Illuminate\Database\Eloquent\Collection|array  $ids
@@ -834,7 +809,7 @@ class BelongsToMany extends Relation
 
         // Next, we will take the differences of the currents and given IDs and detach
         // all of the entities that exist in the "current" array but are not in the
-        // array of the new IDs given to the method which will complete the sync.
+        // the array of the IDs given to the method which will complete the sync.
         if ($detaching && count($detach) > 0) {
             $this->detach($detach);
 
@@ -1072,18 +1047,14 @@ class BelongsToMany extends Relation
     /**
      * Detach models from the relationship.
      *
-     * @param  mixed  $ids
+     * @param  int|array  $ids
      * @param  bool  $touch
      * @return int
      */
     public function detach($ids = [], $touch = true)
     {
         if ($ids instanceof Model) {
-            $ids = $ids->getKey();
-        }
-
-        if ($ids instanceof Collection) {
-            $ids = $ids->modelKeys();
+            $ids = (array) $ids->getKey();
         }
 
         $query = $this->newPivotQuery();
@@ -1094,7 +1065,7 @@ class BelongsToMany extends Relation
         $ids = (array) $ids;
 
         if (count($ids) > 0) {
-            $query->whereIn($this->otherKey, $ids);
+            $query->whereIn($this->otherKey, (array) $ids);
         }
 
         // Once we have all of the conditions set on the statement, we are ready
@@ -1156,10 +1127,6 @@ class BelongsToMany extends Relation
 
         foreach ($this->pivotWheres as $whereArgs) {
             call_user_func_array([$query, 'where'], $whereArgs);
-        }
-
-        foreach ($this->pivotWhereIns as $whereArgs) {
-            call_user_func_array([$query, 'whereIn'], $whereArgs);
         }
 
         return $query->where($this->foreignKey, $this->parent->getKey());
@@ -1268,7 +1235,7 @@ class BelongsToMany extends Relation
      */
     public function getRelatedFreshUpdate()
     {
-        return [$this->related->getUpdatedAtColumn() => $this->related->freshTimestampString()];
+        return [$this->related->getUpdatedAtColumn() => $this->related->freshTimestamp()];
     }
 
     /**

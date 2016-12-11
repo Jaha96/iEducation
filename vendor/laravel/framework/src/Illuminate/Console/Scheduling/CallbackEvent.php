@@ -33,14 +33,14 @@ class CallbackEvent extends Event
      */
     public function __construct($callback, array $parameters = [])
     {
-        if (! is_string($callback) && ! is_callable($callback)) {
+        $this->callback = $callback;
+        $this->parameters = $parameters;
+
+        if (! is_string($this->callback) && ! is_callable($this->callback)) {
             throw new InvalidArgumentException(
                 'Invalid scheduled callback event. Must be string or callable.'
             );
         }
-
-        $this->callback = $callback;
-        $this->parameters = $parameters;
     }
 
     /**

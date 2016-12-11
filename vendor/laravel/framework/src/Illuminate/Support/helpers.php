@@ -614,6 +614,7 @@ if (! function_exists('preg_replace_sub')) {
             foreach ($replacements as $key => $value) {
                 return array_shift($replacements);
             }
+
         }, $subject);
     }
 }
