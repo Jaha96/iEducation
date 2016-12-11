@@ -17,4 +17,8 @@ class PassportController extends Controller
     	
     	return view('jobs');
     }
+	public function gene(){
+    	
+    	return view('general');
+    }    
 }
