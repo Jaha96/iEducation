@@ -24,6 +24,24 @@
                             <li class="current"><a href="/jobs"><div>► First time? Start Here</div></a>
                                 
                             </li>
+
+                            <li class="current"><a href="/jobs"><div>Introduction</div></a>
+                                <ul>
+                                    <li><a href="#"><div><i class="icon-stack"></i>Mongolia</div></a>
+                                        
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-gift"></i>City</div></a>
+                                        
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-umbrella"></i>Province</div></a>
+                                       
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-umbrella"></i>10 reasons why you should go to Mongolia</div></a>
+                                       
+                                    </li>
+                                   
+                                </ul>
+                            </li>
                             
                             <li><a href="#"><div>Education</div></a>
                                 <ul>

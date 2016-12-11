@@ -61,8 +61,27 @@
                             <li class="current"><a href="index.html"><div>► First time? Start Here</div></a>
                                 
                             </li>
+                            <li class="current"><a href="/jobs"><div>Introduction</div></a>
+                                <ul>
+                                    <li><a href="#"><div><i class="icon-stack"></i>Mongolia</div></a>
+                                        
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-gift"></i>City</div></a>
+                                        
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-umbrella"></i>Province</div></a>
+                                       
+                                    </li>
+                                    <li><a href="#"><div><i class="icon-umbrella"></i>10 reasons why you should go to Mongolia</div></a>
+                                       
+                                    </li>
+                                    <li>.</li>
+                                    <li>.</li>
+                                   
+                                </ul>
+                            </li>
                             
-                            <li><a href="#"><div>Education</div></a>
+                            <li><a href="#"><div>Lessons</div></a>
                                 <ul>
                                     <li><a href="#"><div><i class="icon-stack"></i>Sliders</div></a>
                                         
@@ -76,59 +95,20 @@
                                    
                                 </ul>
                             </li>
+
                         
                             <li><a href="shop.html"><div>More</div></a>
                                 <ul>
-                                    <li><a href="shop.html"><div>Police Organization</div></a></li>
-                                    <li><a href="shop-3.html"><div>Hospital</div></a></li>
-                                    <li><a href="shop-3.html"><div>Legal</div></a>
-                                        <ul>
-                                            <li><a href="shop-2-right-sidebar.html"><div>Legal1</div></a></li>
-                                            <li><a href="shop-2-left-sidebar.html"><div>Legal2</div></a></li>
-                                            <li><a href="shop-2-both-sidebar.html"><div>Legal3</div></a></li>
-                                        </ul>
+                                    <li><a href="shop.html"><div>Law</div></a></li>
+                                    <li><a href="shop-3.html"><div>Emergency</div></a></li>
+                                    <li><a href="shop-3.html"><div>Police Department</div></a>
                                     </li>
                                 </ul>
                             </li>
                             
                         </ul>
 
-                        <!-- Top Cart
-                        ============================================= -->
-                        <div id="top-cart">
-                            <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
-                            <div class="top-cart-content">
-                                <div class="top-cart-title">
-                                    <h4>Shopping Cart</h4>
-                                </div>
-                                <div class="top-cart-items">
-                                    <div class="top-cart-item clearfix">
-                                        <div class="top-cart-item-image">
-                                            <a href="#"><img src="assets/images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-                                        </div>
-                                        <div class="top-cart-item-desc">
-                                            <a href="#">Blue Round-Neck Tshirt</a>
-                                            <span class="top-cart-item-price">$19.99</span>
-                                            <span class="top-cart-item-quantity">x 2</span>
-                                        </div>
-                                    </div>
-                                    <div class="top-cart-item clearfix">
-                                        <div class="top-cart-item-image">
-                                            <a href="#"><img src="assets/images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-                                        </div>
-                                        <div class="top-cart-item-desc">
-                                            <a href="#">Light Blue Denim Dress</a>
-                                            <span class="top-cart-item-price">$24.99</span>
-                                            <span class="top-cart-item-quantity">x 3</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="top-cart-action clearfix">
-                                    <span class="fleft top-checkout-price">$114.95</span>
-                                    <button class="button button-3d button-small nomargin fright">View Cart</button>
-                                </div>
-                            </div>
-                        </div><!-- #top-cart end -->
+                       
 
                         <!-- Top Search
                         ============================================= -->
