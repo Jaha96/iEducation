@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'PassportController@index');
+Route::get('jobs',['as'=>'jobs','uses'=>'PassportController@jobs']);
 
 
 

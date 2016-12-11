@@ -12,4 +12,9 @@ class PassportController extends Controller
 
     	return view('home');
     }
+
+    public function jobs(){
+    	
+    	return view('jobs');
+    }
 }
