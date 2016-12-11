@@ -159,7 +159,7 @@
 
                             <div class="feature-box fbox-right topmargin" data-animate="fadeIn">
                                 <div class="fbox-icon">
-                                    <a href="#"><i class="icon-line-heart"></i></a>
+                                    <a href="#"><i class="icon-bulb"></i></a>
                                 </div>
                                 <h3>Eat the world’s weirdest breakfast</h3>
                                 <p>Boodog is an ancient steppe cooking technique still used today when herdsmen find themselves far from home.</p>
